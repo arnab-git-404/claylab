@@ -19,7 +19,7 @@ export default function OurJourney() {
         {/* Right Scrollable Section */}
         <div className="space-y-6 sm:space-y-12 text-base sm:text-lg md:text-xl text-gray-800">
           <p>
-            Every child deserves joyful, quality education — one that's just a few clicks away.
+            Every child deserves joyful, quality education — one that&apos;s just a few clicks away.
             <br />
             We dream of classrooms without borders, where students explore their interests,
             lead passion projects, and grow as changemakers.
@@ -38,7 +38,7 @@ export default function OurJourney() {
             <br />
             By July, it became a registered not-for-profit.
             <br />
-            Today, it's a growing community of mentors and learners rewriting what education can be.
+            Today, it&apos;s a growing community of mentors and learners rewriting what education can be.
           </p>
         </div>
       </div>

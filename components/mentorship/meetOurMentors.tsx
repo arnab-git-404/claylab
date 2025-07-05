@@ -41,7 +41,7 @@ const MeetMentors = () => {
           </p>
 
           <p>
-            They're not just teachers. They're listeners, supporters, and lifelong learners themselves.
+            They&apos;re not just teachers. They&apos;re listeners, supporters, and lifelong learners themselves.
           </p>
         </div>
       </div>

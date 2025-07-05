@@ -22,7 +22,7 @@ export default function Hero() {
           Both.
         </p>
         <p style={{ fontWeight: "100" }} className="text-lg sm:text-2xl md:text-2xl text-white/70 mb-6 sm:mb-8 max-w-full sm:max-w-lg font-sourceSans font-thin">
-          At Claylab, mentorship isn't just support — it's a relationship of trust, empathy, and joyful discovery. One mentor. One learner. A world of possibility.        </p>
+          At Claylab, mentorship isn&apos;t just support — it&apos;s a relationship of trust, empathy, and joyful discovery. One mentor. One learner. A world of possibility.        </p>
         <Button className="bg-gradient-to-r from-green-800 to-green-600 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-500 text-white rounded-md w-full sm:w-min px-8 sm:px-16 py-3 sm:py-4 text-base sm:text-lg">
           Join us
         </Button>

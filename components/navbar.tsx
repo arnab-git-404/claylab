@@ -4,21 +4,20 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
-import { useState, useEffect } from "react"
-import { usePathname } from "next/navigation"
+import { useState } from "react"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
-  const [hasMounted, setHasMounted] = useState(false)
-  const pathName = usePathname()
-  const segments = pathName.split("/")
-  const lastSegment = segments[segments.length - 1]
+  // const [hasMounted, setHasMounted] = useState(false)
+  // const pathName = usePathname()
+  // const segments = pathName.split("/")
+  // const lastSegment = segments[segments.length - 1]
 
-  useEffect(() => {
-    setHasMounted(true)
-  }, [])
+  // useEffect(() => {
+  //   setHasMounted(true)
+  // }, [])
 
-  const textColor = hasMounted && lastSegment === "support" ? "text-black" : "text-white"
+  // const textColor = hasMounted && lastSegment === "support" ? "text-black" : "text-white"
 
   return (
     <header className={`w-full flex items-center justify-between px-4 sm:px-6 md:px-14 py-4 md:py-6 z-30 bg-transparent ${isOpen ? "bg-black/95" : ""}`}>
