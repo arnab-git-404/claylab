@@ -46,7 +46,7 @@ export default function Navbar() {
 
       {/* Mobile Hamburger Icon */}
       <button
-        className="md:hidden text-white ml-2 p-2 rounded focus:outline-none focus:ring-2 focus:ring-white"
+        className="md:hidden text-black ml-2 p-2 rounded focus:outline-none focus:ring-2 "
         onClick={() => setIsOpen(!isOpen)}
         aria-label="Toggle Menu"
       >

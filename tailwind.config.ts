@@ -17,7 +17,8 @@ const config: Config = {
         openSans: ['var(--font-openSans)'],
         sourceSans: ['var(--font-sourceSans)'],
         roughScript: ['var(--font-roughScript)'],
-        meowScript: ['var(--font-meowScript)']
+        meowScript: ['var(--font-meowScript)'],
+        intrudingCat: ['IntrudingCat', 'cursive'],
       },
       colors: {
         background: "hsl(var(--background))",

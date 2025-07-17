@@ -23,6 +23,10 @@ export default function Hero() {
           On April 27th, 2020, Claylab was born out of love - not as an institution, but as a promise. A promise that learning could feel like joy, not pressure. That students could bloom, shine, and fly, given the right care. Today, that promise lives on through our mentorship program — reaching students across India, nurturing their passions, and helping them become confident leaders of tomorrow.
         </p>
       </div>
+
+
+
+      
     </section>
   )
 }
