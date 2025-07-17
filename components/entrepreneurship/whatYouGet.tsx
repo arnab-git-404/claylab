@@ -115,9 +115,9 @@ function WorkshopCard({ title, description, tags, location, image }: CardProps) 
 
 export default function WorkshopGrid() {
   return (
-    <section className="p-2 sm:p-4 md:p-8 min-h-screen">
+    <section className="py-8 sm:py-10 px-2 sm:px-4 md:px-16 min-h-screen">
       <Heading text={"What you get?"} />
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
         {cardsData.map((card, index) => (
           <WorkshopCard key={index} {...card} />
         ))}
