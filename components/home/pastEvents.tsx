@@ -31,6 +31,8 @@ const PastEvents = () => {
       <Heading text="Past Events" />
 
       <div className="relative flex items-center justify-center mt-6 sm:mt-8">
+
+
         {/* Prev Button */}
         <button
           onClick={prev}
@@ -39,8 +41,9 @@ const PastEvents = () => {
           <ChevronLeft className="w-5 h-5 text-gray-700" />
         </button>
 
+
         {/* Carousel */}
-        <div className="relative flex justify-center items-center w-full max-w-full sm:max-w-6xl overflow-hidden h-[180px] sm:h-[300px]">
+        <div className="relative flex justify-center items-center w-full max-w-full sm:max-w-6xl overflow-hidden h-[500px] sm:h-[300px]">
           {images.map((img, index) => {
             const isActive = index === activeIndex;
             const isPrev = index === (activeIndex - 1 + images.length) % images.length;
@@ -49,22 +52,41 @@ const PastEvents = () => {
             const baseStyles =
               "absolute transition-all duration-500 ease-in-out rounded-xl shadow-md overflow-hidden";
 
+            // if (isActive) {
+            //   return (
+            //     <div
+            //       key={index}
+            //       className={`${baseStyles} z-30 w-[80%] sm:w-[60%] h-full scale-100 shadow-md bg-white`}
+            //     >
+            //       <Image
+            //         src={img}
+            //         alt={`Event ${index + 1}`}
+            //         width={800}
+            //         height={400}
+            //         className="w-full h-full object-cover"
+            //       />
+            //     </div>
+            //   );
+            // }
+
+
             if (isActive) {
               return (
                 <div
                   key={index}
-                  className={`${baseStyles} z-30 w-[80%] sm:w-[60%] h-full scale-100 shadow-md bg-white`}
+                  className={`${baseStyles} z-30 sm:w-[60%] h-full scale-100 shadow-md bg-white border-4 border-blue-500`}
                 >
                   <Image
                     src={img}
                     alt={`Event ${index + 1}`}
                     width={800}
-                    height={400}
+                    height={600}
                     className="w-full h-full object-cover"
                   />
                 </div>
               );
             }
+
 
             if (isPrev) {
               return (
