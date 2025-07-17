@@ -65,9 +65,11 @@ const WhyWeExist = () => {
         <div className="absolute mt-28 transform -translate-y-1/2 z-10">
           {/* <p className="text-center sm:text-base md:text-lg text-gray-900 whitespace-nowrap"> */}
             <p className="text-center text-lg sm:text-xl md:text-2xl text-gray-900 whitespace-nowrap">
-            "3,000+ students supported<br />
-            over the past 3 years"
-          </p>
+          {`"3,000+ students supported`}
+            <br />
+            {`over the past 3 years"`}
+            </p>
+
         </div>
       </div>
     </section>
