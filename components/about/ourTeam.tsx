@@ -1,8 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { useInView } from "react-intersection-observer";
-import Image from "next/image";
+import {useState} from "react";
+import TeamMemberRow from "./TeamMemberRow";
 
 interface TeamMember {
   name: string;
@@ -59,62 +58,17 @@ export default function OurTeam() {
       </h2>
 
       <div className="relative w-full flex flex-col gap-4">
-        {team.map((member, index) => {
-          const [ref, inView] = useInView({
-            threshold: 1,
-            rootMargin: "-40% 0px -40% 0px",
-            triggerOnce: false,
-          });
-
-          useEffect(() => {
-            if (!manualOverride && inView && activeIndex !== index) {
-              setManualOverride(false);
-              setActiveIndex((prev) => {
-                if (index > prev) return prev + 1;
-                if (index < prev) return prev - 1;
-                return prev;
-              });
-            }
-          }, [inView, index, activeIndex, manualOverride]);
-
-          return (
-            <div
-              key={member.name}
-              ref={ref}
-              onClick={() => {
-                setActiveIndex(index);
-                setManualOverride((prev) => activeIndex === index ? !prev : true);
-              }}
-              className="relative w-full flex items-center justify-between px-4 py-6 cursor-pointer transition-colors duration-300 hover:bg-green-50"
-            >
-              {/* Left: Name */}
-              <span className={`text-lg md:text-xl font-medium ${activeIndex === index ? "text-green-800 font-bold" : "text-black"}`}>
-                {member.name}
-              </span>
-
-              {/* Center: Image */}
-              {activeIndex === index && (
-                <div className="absolute top-[30%] left-[45%] transform -translate-y-1/2 z-10 w-[180px] h-[180px] md:w-[200px] md:h-[200px] rounded-xl overflow-hidden shadow-md transition-all duration-300">
-                  <Image
-                    src={member.image}
-                    alt={member.name}
-                    fill
-                    className="object-cover"
-                    priority
-                  />
-                </div>
-              )}
-
-              {/* Right: Role */}
-              <span className={`text-sm md:text-base text-right ${activeIndex === index ? "text-green-800 font-bold" : "text-black"}`}>
-                {member.role}
-              </span>
-
-              {/* Bottom Line */}
-              <div className="absolute bottom-0 left-[15%] right-[15%] h-[1px] bg-gradient-to-r from-[#FFFFFF] via-[#474747] to-[#FFFFFF]" />
-            </div>
-          );
-        })}
+        {team.map((member, index) => (
+          <TeamMemberRow
+            key={member.name}
+            member={member}
+            index={index}
+            activeIndex={activeIndex}
+            setActiveIndex={setActiveIndex}
+            manualOverride={manualOverride}
+            setManualOverride={setManualOverride}
+          />
+        ))}
       </div>
     </section>
   );
