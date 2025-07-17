@@ -21,6 +21,8 @@ export default function Navbar() {
 
   return (
     <header className={`w-full flex items-center justify-between px-4 sm:px-6 md:px-14 py-4 md:py-6 z-30 bg-transparent ${isOpen ? "bg-black/95" : ""}`}>
+      {/* // <header className={`w-full flex items-center justify-between px-4 sm:px-6 md:px-14 py-4 md:py-6 z-30 bg-transparent`}> */}
+
       <div className="text-2xl md:text-3xl font-bold flex-shrink-0">
         <Image
           src={"/claylab assets/general/claylab-logo.png"}
@@ -54,7 +56,9 @@ export default function Navbar() {
       </button>
 
       {isOpen && (
-        <div className="fixed inset-0 w-full h-full bg-black/95 text-white flex flex-col items-center justify-center space-y-8 py-10 px-6 md:hidden z-40 overflow-y-auto">
+        // <div className="fixed inset-0 w-full h-full bg-black/95 text-white flex flex-col items-center justify-center space-y-8 py-10 px-6 md:hidden z-40 overflow-y-auto">
+          <div className="fixed inset-0 w-full h-full bg-transparent text-white flex flex-col items-center justify-center space-y-8 py-10 px-6 md:hidden z-40 overflow-y-auto">
+
           <Link className="hover:underline cursor-pointer text-2xl" href="/" onClick={() => setIsOpen(false)}>Home</Link>
           <Link className="hover:underline cursor-pointer text-2xl" href="/about" onClick={() => setIsOpen(false)}>About Us</Link>
           <Link className="hover:underline cursor-pointer text-2xl" href="/mentorship" onClick={() => setIsOpen(false)}>Mentorship Program</Link>
