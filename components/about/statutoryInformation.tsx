@@ -6,7 +6,8 @@ import Heading from '../heading';
 
 export default function StatutoryInfo() {
   return (
-    <Card className="max-w-7xl shadow-2xl bg-[#C3D7C435] m-2 sm:m-4 md:m-8 rounded-2xl p-2 sm:p-4 md:p-6">
+    <section className='py-8 sm:py-12 px-2 sm:px-4 md:px-16'>
+    <Card className="max-w-7xl shadow-2xl bg-[#C3D7C435] m-2 rounded-2xl p-2">
       <CardContent className="space-y-2 sm:space-y-4">
         <Heading text="STATUTORY INFORMATION" />
 
@@ -59,5 +60,6 @@ export default function StatutoryInfo() {
         </div>
       </CardContent>
     </Card>
+    </section>
   );
 }

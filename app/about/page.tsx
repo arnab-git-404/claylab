@@ -6,13 +6,14 @@ import Claylab from "@/components/about/claylab";
 import StatutoryInfo from "@/components/about/statutoryInformation";
 import OurJourney from "@/components/about/ourJourney";
 import ReportsSection from "@/components/about/reports";
+import OurTeam from "@/components/about/ourTeam";
 
 export default function Home() {
   return (
     <div className="flex flex-col max-w-screen bg-clay-light-hover gap-10">
       <Hero />
       <Claylab />
-      {/* <OurTeam /> */}
+      <OurTeam />
       <StatutoryInfo />
       <OurJourney />
       <ReportsSection />
