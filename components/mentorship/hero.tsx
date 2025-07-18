@@ -229,8 +229,8 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/40 "></div>
 
       <div className="flex flex-col gap-4 sm:gap-6 mx-4 sm:mx-8 md:mx-14 mt-16 sm:mt-32 text-start max-w-full sm:max-w-4xl z-10">
-        <h1 className="text-white font-sourceSans font-thin leading-tight">
-          <span className="block text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+        {/* <h1 className="text-white font-sourceSans font-thin leading-tight">
+          <span className="block text-2xl sm:text-4xl md:text-5xl lg:text-xl xl:text-7xl">
             One Mentor. One Learner.{" "}
           </span>
           <span className="block text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mt-2 sm:mt-3 lg:mt-4">
@@ -238,6 +238,19 @@ export default function Hero() {
             A Journey That Changes
           </span>
           <span className="block text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mt-2 sm:mt-3 lg:mt-4">
+            Both.
+          </span>
+        </h1> */}
+
+        <h1 className="text-white font-sourceSans font-thin leading-tight">
+          <span className="block text-2xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-7xl">
+            One Mentor. One Learner.{" "}
+          </span>
+          <span className="block text-2xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-7xl mt-2 sm:mt-3 lg:mt-4">
+            {" "}
+            A Journey That Changes
+          </span>
+          <span className="block text-2xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-7xl mt-2 sm:mt-3 lg:mt-4">
             Both.
           </span>
         </h1>

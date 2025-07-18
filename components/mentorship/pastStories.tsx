@@ -204,11 +204,14 @@ const PastStories = () => {
                     alt={`Story ${index + 1} profile`}
                     fill
                     sizes="(max-width: 640px) 80px, (max-width: 1024px) 96px, 128px"
-                    className="object-cover rounded-full border-3 sm:border-4 md:border-5 border-white shadow-lg transition-transform duration-300 group-hover:scale-110"
+                    className="object-cover rounded-full shadow-lg transition-transform duration-300 group-hover:scale-110"
                     loading="lazy"
                   />
                 </div>
               </div>
+
+
+
             </div>
           ))}
         </div>
