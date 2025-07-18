@@ -46,26 +46,150 @@ const statsRow2 = [
 ]
 
 
+// const StatisticsCommon = () => {
+//   return <>
+//     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+//       {stats.map((stat, index) => (
+//         <div
+//           key={index}
+//           className={`rounded-2xl p-6 flex flex-col justify-between h-48 ${index === 0
+//             ? "bg-gradient-to-tr from-[#00391C] to-[#009F4E]"
+//             : "bg-gradient-to-r from-green-100 to-green-100/30"
+//             } ${index === 0 ? "md:col-span-1" : "md:col-span-1"} min-w-[200px]`}
+//         >
+//           <h2
+//             className={`text-6xl font-openSans font-light ${index === 0 ? "text-[#56C189]" : "text-[#00391C]"
+//               }`}
+//           >
+//             {stat.value}
+//           </h2>
+//           <div
+//             className={`flex flex-col text-sm text-right ${index === 0 ? "text-white " : "text-[#00391C]"
+//               }`}
+//           >
+//             {stat.description.map((line, i) => (
+//               <p key={i}>{line}</p>
+//             ))}
+//           </div>
+//         </div>
+//       ))}
+//     </div>
+
+
+//     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+//       {statsRow2.map((stat, index) => (
+//         <div
+//           key={index}
+//           className={`rounded-2xl p-6 flex flex-col justify-between h-48 ${index === -1
+//             ? "bg-gradient-to-tr from-[#00391C] to-[#009F4E]"
+//             : "bg-gradient-to-r from-green-100 to-green-100/30"
+//             } ${index === -1 ? "md:col-span-1" : "md:col-span-1"} min-w-[200px]`}
+//         >
+//           <h2
+//             className={`text-6xl font-openSans font-light ${index === -1 ? "text-[#56C189]" : "text-[#00391C]"
+//               }`}
+//           >
+//             {stat.value}
+//           </h2>
+//           <div
+//             className={`flex flex-col text-sm text-right ${index === -1 ? "text-white " : "text-[#00391C]"
+//               }`}
+//           >
+//             {stat.description.map((line, i) => (
+//               <p key={i}>{line}</p>
+//             ))}
+//           </div>
+//         </div>
+//       ))}
+//     </div>
+//   </>
+
+// }
+
+
+
+
+
+// const StatisticsCommon = () => {
+//   return <>
+//     {/* First row - 3 columns */}
+//     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+//       {stats.map((stat, index) => (
+//         <div
+//           key={index}
+//           className={`border-4 rounded-2xl p-6 flex flex-col justify-between h-48 ${
+//             index === 1
+//               ? "bg-gradient-to-tr from-[#00391C] to-[#009F4E]"
+//               : "bg-gradient-to-r from-green-100 to-green-100/30"
+//           } min-w-[200px]`}
+//         >
+//           <h2
+//             className={`text-4xl font-openSans font-light ${
+//               index === 0 ? "text-[#56C189]" : "text-[#00391C]"
+//             }`}
+//           >
+//             {stat.value}
+//           </h2>
+//           <div
+//             className={`flex flex-col text-lg text-right ${
+//               index === 0 ? "text-black" : "text-[#00391C]"
+//             }`}
+//           >
+//             {stat.description.map((line, i) => (
+//               <p key={i}>{line}</p>
+//             ))}
+//           </div>
+//         </div>
+//       ))}
+//     </div>
+
+//     {/* Second row - 2 columns */}
+//     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+//       {statsRow2.map((stat, index) => (
+//         <div
+//           key={index}
+//           className=" border-4 rounded-2xl p-6 flex flex-col justify-between h-48 bg-gradient from-[#D0EBD2] to-[#00391C] min-w-[200px]"
+//         >
+//           <h2 className="text-4xl font-openSans font-light text-[#00391C]">
+//             {stat.value}
+//           </h2>
+//           <div className="flex flex-col text-xl text-right text-[#00391C]">
+//             {stat.description.map((line, i) => (
+//               <p key={i}>{line}</p>
+//             ))}
+//           </div>
+//         </div>
+//       ))}
+//     </div>
+//   </>
+// }
+// export default StatisticsCommon;
+
+
 const StatisticsCommon = () => {
   return <>
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+    {/* First row - 3 columns */}
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
       {stats.map((stat, index) => (
         <div
           key={index}
-          className={`rounded-2xl p-6 flex flex-col justify-between h-48 ${index === 0
-            ? "bg-gradient-to-tr from-[#00391C] to-[#009F4E]"
-            : "bg-gradient-to-r from-green-100 to-green-100/30"
-            } ${index === 0 ? "md:col-span-1" : "md:col-span-1"} min-w-[200px]`}
+          className={`border-4 rounded-2xl p-6 flex flex-col justify-between h-48 ${
+            
+            
+              "bg-gradient-to-r from-green-600 to-green-200"
+          } min-w-[200px]`}
         >
           <h2
-            className={`text-6xl font-openSans font-light ${index === 0 ? "text-[#56C189]" : "text-[#00391C]"
-              }`}
+            className={`text-4xl font-openSans font-light ${
+              index === 0 ? "text-Black" : "text-[#00391C]"
+            }`}
           >
             {stat.value}
           </h2>
           <div
-            className={`flex flex-col text-sm text-right ${index === 0 ? "text-white " : "text-[#00391C]"
-              }`}
+            className={`flex flex-col text-lg text-right ${
+              index === 0 ? "text-black" : "text-[#00391C]"
+            }`}
           >
             {stat.description.map((line, i) => (
               <p key={i}>{line}</p>
@@ -74,25 +198,18 @@ const StatisticsCommon = () => {
         </div>
       ))}
     </div>
+
+    {/* Second row - 2 columns */}
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
       {statsRow2.map((stat, index) => (
         <div
           key={index}
-          className={`rounded-2xl p-6 flex flex-col justify-between h-48 ${index === -1
-            ? "bg-gradient-to-tr from-[#00391C] to-[#009F4E]"
-            : "bg-gradient-to-r from-green-100 to-green-100/30"
-            } ${index === -1 ? "md:col-span-1" : "md:col-span-1"} min-w-[200px]`}
+          className="border-4 rounded-2xl p-6 flex flex-col justify-between h-48 bg-gradient-to-r from-green-600 to-green-200 min-w-[200px]"
         >
-          <h2
-            className={`text-6xl font-openSans font-light ${index === -1 ? "text-[#56C189]" : "text-[#00391C]"
-              }`}
-          >
+          <h2 className="text-4xl font-openSans font-light text-black">
             {stat.value}
           </h2>
-          <div
-            className={`flex flex-col text-sm text-right ${index === -1 ? "text-white " : "text-[#00391C]"
-              }`}
-          >
+          <div className="flex flex-col text-xl text-right text-black">
             {stat.description.map((line, i) => (
               <p key={i}>{line}</p>
             ))}
@@ -101,7 +218,6 @@ const StatisticsCommon = () => {
       ))}
     </div>
   </>
-
 }
 
-export default StatisticsCommon
+export default StatisticsCommon;
