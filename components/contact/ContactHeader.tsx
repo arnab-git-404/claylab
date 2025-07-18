@@ -4,7 +4,7 @@ const ContactHeader = () => (
       Contact <span className="text-green-600">Claylab</span>
     </h1>
     <p className="text-lg text-muted-foreground">
-      Get in touch with our team. We'd love to hear from you.
+      Get in touch with our team. We&apos;d love to hear from you.
     </p>
   </div>
 );
