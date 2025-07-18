@@ -184,11 +184,11 @@ export default function Navbar() {
       </div>
 
       {/* Desktop Nav */}
-      <nav className={`hidden md:flex items-center space-x-6 md:space-x-8 ${isScrolled ? 'text-green-500' : 'text-white'}`}>
-        <Link className="hover:underline cursor-pointer transition-colors duration-200 hover:text-green-200" href="/">Home</Link>
-        <Link className="hover:underline cursor-pointer transition-colors duration-200 hover:text-green-200" href="/about">About Us</Link>
-        <Link className="hover:underline cursor-pointer transition-colors duration-200 hover:text-green-200" href="/mentorship">Mentorship</Link>
-        <Link className="hover:underline cursor-pointer transition-colors duration-200 hover:text-green-200" href="/entrepreneurship">Entrepreneurship</Link>
+      <nav className={`hidden md:flex items-center space-x-6 md:space-x-8 ${isScrolled ? 'text-black' : 'text-white'}`}>
+        <Link className="hover:underline cursor-pointer transition-colors duration-200 " href="/">Home</Link>
+        <Link className="hover:underline cursor-pointer transition-colors duration-200 " href="/about">About Us</Link>
+        <Link className="hover:underline cursor-pointer transition-colors duration-200 " href="/mentorship">Mentorship</Link>
+        <Link className="hover:underline cursor-pointer transition-colors duration-200 " href="/entrepreneurship">Entrepreneurship</Link>
         <Link className="hover:underline cursor-pointer" href="/support">
         <Button className="bg-clay-normal hover:bg-green-600 rounded-full px-4 transition-all duration-200 hover:scale-105">
           Support Us

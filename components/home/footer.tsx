@@ -97,11 +97,12 @@ const Footer = () => {
         {/* Nav + Address */}
         <div className="flex flex-col gap-6 items-start lg:items-end">
           {/* Navigation - spread horizontally */}
-          <nav className="grid grid-cols-2 sm:grid-cols-4 gap-4 lg:gap-8 justify-start lg:justify-end text-lg sm:text-m w-full lg:w-auto">
+          <nav className="grid grid-cols-2 sm:grid-cols-5 gap-4 lg:gap-8 justify-start lg:justify-end text-lg sm:text-m w-full lg:w-auto">
+            <a href="/" className="hover:underline text-center lg:text-right whitespace-nowrap">Home</a>
             <a href="/about" className="hover:underline text-center lg:text-right whitespace-nowrap">About us</a>
-            <a href="/contact" className="hover:underline text-center lg:text-right whitespace-nowrap">Contact us</a>
-            <a href="/programs" className="hover:underline text-center lg:text-right whitespace-nowrap">Programs</a>
             <a href="/mentorship" className="hover:underline text-center lg:text-right whitespace-nowrap">Mentorship</a>
+            <a href="/entrepreneurship" className="hover:underline text-center lg:text-right whitespace-nowrap">Entrepreneurship</a>
+            <a href="/support" className="hover:underline text-center lg:text-right whitespace-nowrap">Support us</a>
           </nav>
           
           {/* Address - stacked vertically */}
