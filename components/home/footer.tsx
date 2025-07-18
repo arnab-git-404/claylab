@@ -71,6 +71,7 @@
 
 import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6";
 import Image from "next/image";
+import Link from "next/link"
 
 const Footer = () => {
   return (
@@ -98,11 +99,11 @@ const Footer = () => {
         <div className="flex flex-col gap-6 items-start lg:items-end">
           {/* Navigation - spread horizontally */}
           <nav className="grid grid-cols-2 sm:grid-cols-5 gap-4 lg:gap-8 justify-start lg:justify-end text-lg sm:text-m w-full lg:w-auto">
-            <a href="/" className="hover:underline text-center lg:text-right whitespace-nowrap">Home</a>
-            <a href="/about" className="hover:underline text-center lg:text-right whitespace-nowrap">About us</a>
-            <a href="/mentorship" className="hover:underline text-center lg:text-right whitespace-nowrap">Mentorship</a>
-            <a href="/entrepreneurship" className="hover:underline text-center lg:text-right whitespace-nowrap">Entrepreneurship</a>
-            <a href="/support" className="hover:underline text-center lg:text-right whitespace-nowrap">Support us</a>
+            <Link href="/" className="hover:underline text-center lg:text-right whitespace-nowrap">Home</Link>
+            <Link href="/about" className="hover:underline text-center lg:text-right whitespace-nowrap">About us</Link>
+            <Link href="/mentorship" className="hover:underline text-center lg:text-right whitespace-nowrap">Mentorship</Link>
+            <Link href="/entrepreneurship" className="hover:underline text-center lg:text-right whitespace-nowrap">Entrepreneurship</Link>
+            <Link href="/support" className="hover:underline text-center lg:text-right whitespace-nowrap">Support us</Link>
           </nav>
           
           {/* Address - stacked vertically */}
