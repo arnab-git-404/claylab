@@ -74,7 +74,7 @@ const PastEvents = () => {
               return (
                 <div
                   key={index}
-                  className={`${baseStyles} z-30 sm:w-[60%] h-full scale-100 shadow-md bg-white border-4 border-blue-500`}
+                  className={`${baseStyles} z-30 sm:w-[60%] h-full scale-100 shadow-md bg-white border-4 border-green-500`}
                 >
                   <Image
                     src={img}
