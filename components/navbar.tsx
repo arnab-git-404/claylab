@@ -191,7 +191,7 @@ export default function Navbar() {
         <Link className="hover:underline cursor-pointer transition-colors duration-200 " href="/entrepreneurship">Entrepreneurship</Link>
         <Link className="hover:underline cursor-pointer" href="/support">
         <Button className="bg-clay-normal hover:bg-green-600 rounded-full px-4 transition-all duration-200 hover:scale-105">
-          Support Us
+          Donate Us
         </Button>
         </Link>
       </nav>
@@ -213,7 +213,7 @@ export default function Navbar() {
           <Link className="hover:underline cursor-pointer text-2xl transition-colors duration-200 hover:text-green-200" href="/entrepreneurship" onClick={() => setIsOpen(false)}>Entrepreneurship Program</Link>
           <Link href="/support" onClick={() => setIsOpen(false)}>
             <Button className="bg-clay-normal hover:bg-green-600 text-white rounded-full px-8 py-3 text-lg transition-all duration-200 hover:scale-105">
-              Support Us
+              Donate Us
             </Button>
           </Link>
         </div>

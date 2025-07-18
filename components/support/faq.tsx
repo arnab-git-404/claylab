@@ -169,6 +169,7 @@ export default function FAQ() {
   };
 
   return (
+
     <div className="min-h-screen bg-clay-light-hover py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-stretch gap-12 lg:gap-16">
@@ -207,7 +208,7 @@ export default function FAQ() {
                   className="w-48 sm:w-60 lg:w-72"
                   alt={"underline"}
                 />
-                <button className="mt-6 px-8 py-4 bg-gradient-to-r from-green-600 to-green-700 text-white font-semibold rounded-full hover:from-green-700 hover:to-green-800 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                <button className="mt-6 px-8 py-4 bg-gradient-to-r from-green-600 to-green-700 text-white font-semibold rounded-full hover:from-green-700 hover:to-green-800 transform transition-all duration-300 shadow-lg hover:shadow-xl">
                   Get Started Today
                 </button>
               </div>
@@ -225,7 +226,7 @@ export default function FAQ() {
                 {faqs.map((faq, i) => (
                   <div
                     key={i}
-                    className={`bg-gradient-to-r from-green-50 to-green-100/50 border border-green-200/50 p-4 px-5 rounded-2xl cursor-pointer transition-all duration-300 hover:scale-[1.02] hover:shadow-lg group ${
+                    className={`bg-gradient-to-r from-green-50 to-green-100/50 border border-green-200/50 p-4 px-5 rounded-2xl cursor-pointer transition-all duration-300  hover:shadow-lg group ${
                       openIndex === i ? 'bg-gradient-to-r from-green-100 to-green-200/70 shadow-md' : ''
                     }`}
                     onClick={() => toggleFAQ(i)}
