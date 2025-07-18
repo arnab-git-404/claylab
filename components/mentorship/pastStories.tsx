@@ -214,7 +214,7 @@ const PastStories = () => {
         </div>
 
         {/* Optional CTA Section */}
-        <div className="text-center mt-16 sm:mt-20 lg:mt-24">
+        {/* <div className="text-center mt-16 sm:mt-20 lg:mt-24">
           <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto">
             Every story is unique. Every journey transforms lives. Start your own mentorship story today.
           </p>
@@ -222,7 +222,9 @@ const PastStories = () => {
           <button className="inline-flex items-center px-6 sm:px-8 md:px-10 py-3 sm:py-4 bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white rounded-lg sm:rounded-xl font-medium text-sm sm:text-base md:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
             Share Your Story
           </button>
-        </div>
+        </div> */}
+
+
       </div>
     </section>
   )
