@@ -161,7 +161,7 @@ const PastStories = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-8 sm:mb-12 md:mb-16 lg:mb-20">
-          <h3 className="font-roughScript text-5xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-green-800 mb-2 sm:mb-4">
+          <h3 className="font-hendrigo text-5xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-green-800 mb-2 sm:mb-4">
             Past Stories
           </h3>
           
