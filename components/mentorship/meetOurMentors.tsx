@@ -73,8 +73,8 @@ const MentorsImage = [
 const MeetMentors = () => {
   return (
     <section className="relative py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12 sm:mb-16 lg:mb-20">
+      <div className=" px-6 mx-auto">
+        <div className="text-left mb-12 sm:mb-16 lg:mb-20">
           <Heading text="Meet Our Mentors" />
         </div>
         

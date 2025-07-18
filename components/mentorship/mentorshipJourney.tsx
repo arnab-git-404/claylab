@@ -104,7 +104,7 @@ export const mentorshipSteps = [
 const MentorshipJourney = () => {
   return (
     <section className="py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+      <div className="px-6">
         {/* Header */}
         <div className="text-left mb-8 sm:mb-12 md:mb-16 lg:mb-20">
           <Heading text="Ready to start your mentorship journey" />
