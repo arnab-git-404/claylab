@@ -1,47 +1,32 @@
-'use client';
+"use client"
 
-export default function OurJourney() {
+import Image from "next/image"
+
+export default function Hero() {
   return (
-    <section className="relative py-8 sm:py-12 md:py-16 px-2 sm:px-4">
-      <div className="max-w-full md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-        {/* Left Sticky Section */}
-        <div className="sticky top-20 h-fit self-start ">
-          <div className="space-y-4 sm:space-y-6 my-auto">
-            <h2 className="text-3xl sm:text-6xl md:text-8xl font-roughScript text-green-900 leading-tight">
-              Our Journey
-            </h2>
-            <p className="text-lg sm:text-2xl font-medium max-w-md">
-              It started with three teachers, a handful of students, and a vision full of hope.
-            </p>
-          </div>
-        </div>
+    <section className="relative w-full h-[60vh] sm:h-screen flex items-center overflow-hidden">
+      <Image
+        src="/claylab assets/general/HeroSectionImages/aboutUsHero.png"
+        alt="Background"
+        fill
+        className="object-cover object-center "
+      />
 
-        {/* Right Scrollable Section */}
-        <div className="space-y-6 sm:space-y-12 text-base sm:text-lg md:text-xl text-gray-800">
-          <p>
-            Every child deserves joyful, quality education — one that&apos;s just a few clicks away.
-            <br />
-            We dream of classrooms without borders, where students explore their interests,
-            lead passion projects, and grow as changemakers.
-          </p>
+      <div className="absolute inset-0 bg-black/40 "></div>
 
-          <p>
-            CLAY stands for Centre for Learning, Affection, and joy.
-            <br />
-            We believe learning should uplift, not overwhelm.
-            <br />
-            With mentorship rooted in love and purpose, we help students bloom, shine, and fly.
-          </p>
-
-          <p>
-            Born during the lockdown in April 2020, Claylab began with 3 teachers and a few students.
-            <br />
-            By July, it became a registered not-for-profit.
-            <br />
-            Today, it&apos;s a growing community of mentors and learners rewriting what education can be.
-          </p>
-        </div>
+      <div className="flex flex-col gap-4 sm:gap-6 mx-4 sm:mx-8 md:mx-14 mt-16 sm:mt-32 text-start max-w-full sm:max-w-4xl z-10">
+        <p style={{ fontWeight: "100" }} className="text-2xl sm:text-5xl md:text-7xl max-w-full sm:max-w-2xl text-white mb-2 sm:mb-6 leading-tight font-sourceSans font-thin" >
+          It started with three teachers, a handful of students, and a vision full of hope.
+        </p>
+        <h3 className="text-2xl sm:text-5xl md:text-7xl mb-2 sm:mb-[-32] text-white font-roughScript z-[5]">Our Story</h3>
+        <p style={{ fontWeight: "100" }} className="text-sm sm:text-base md:text-sm text-white/70 mb-4 sm:mb-8 max-w-full sm:max-w-6xl z-[10] font-sourceSans font-thin">
+          On April 27th, 2020, Claylab was born out of love - not as an institution, but as a promise. A promise that learning could feel like joy, not pressure. That students could bloom, shine, and fly, given the right care. Today, that promise lives on through our mentorship program — reaching students across India, nurturing their passions, and helping them become confident leaders of tomorrow.
+        </p>
       </div>
+
+
+
+      
     </section>
-  );
+  )
 }
