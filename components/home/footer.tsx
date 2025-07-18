@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="flex flex-col gap-4 items-start md:items-end">
           <nav className="flex flex-wrap gap-4 sm:gap-6 justify-start md:justify-end align-center text-xs sm:text-sm w-full">
             <a href="/about" className="hover:underline block">About us</a>
-            <a href="/support" className="hover:underline block">Support us</a>
+            <a href="/contact" className="hover:underline block">Contact us</a>
             <a href="/entrepreneurship" className="hover:underline block">Entrepreneurship</a>
             <a href="/mentorship" className="hover:underline block">Mentorship</a>
           </nav>
