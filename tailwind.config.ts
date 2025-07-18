@@ -30,6 +30,9 @@ const config: Config = {
         roughScript: ['var(--font-roughScript)'],
         meowScript: ['var(--font-meowScript)'],
         intrudingCat: ['IntrudingCat', 'cursive'],
+        kindsans: ['var(--font-kind-sans)', 'sans-serif'],
+
+
       },
       colors: {
         background: "hsl(var(--background))",
