@@ -53,7 +53,7 @@ export default function OurTeam() {
 
   return (
     <section className="py-8 sm:py-12 px-2 sm:px-4 md:px-16">
-      <h2 className="text-4xl md:text-5xl font-bold mb-16 text-left">
+      <h2 className="text-4xl md:text-5xl font-san mb-16 text-left">
         <span className="border-b-4 border-green-600 pb-2">Our Team</span>
       </h2>
 

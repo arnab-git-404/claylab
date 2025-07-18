@@ -18,8 +18,8 @@ export default function Hero() {
         <p style={{ fontWeight: "100" }} className="text-2xl sm:text-5xl md:text-7xl max-w-full sm:max-w-2xl text-white mb-2 sm:mb-6 leading-tight font-sourceSans font-thin" >
           It started with three teachers, a handful of students, and a vision full of hope.
         </p>
-        <h3 className="text-2xl sm:text-5xl md:text-7xl mb-2 sm:mb-[-32] text-white font-roughScript z-[5]">Our Story</h3>
-        <p style={{ fontWeight: "100" }} className="text-sm sm:text-base md:text-sm text-white/70 mb-4 sm:mb-8 max-w-full sm:max-w-6xl z-[10] font-sourceSans font-thin">
+        <h3 className="text-2xl sm:text-5xl md:text-7xl mb-2 sm:mb-[-32] text-white font-caliSign z-[5]">Our Story</h3>
+        <p style={{ fontWeight: "100" }} className="text-lg sm:text-base md:text-base text-white/70 mb-4 sm:mb-8 max-w-full sm:max-w-6xl z-[10] font-sourceSans font-thin">
           On April 27th, 2020, Claylab was born out of love - not as an institution, but as a promise. A promise that learning could feel like joy, not pressure. That students could bloom, shine, and fly, given the right care. Today, that promise lives on through our mentorship program — reaching students across India, nurturing their passions, and helping them become confident leaders of tomorrow.
         </p>
       </div>

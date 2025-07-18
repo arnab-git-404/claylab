@@ -1,3 +1,4 @@
+import { Calistoga } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -19,6 +20,7 @@ const config: Config = {
         roughScript: ['var(--font-roughScript)'],
         meowScript: ['var(--font-meowScript)'],
         intrudingCat: ['IntrudingCat', 'cursive'],
+        caliSign: ['CaliSign', 'cursive'],
       },
       colors: {
         background: "hsl(var(--background))",
