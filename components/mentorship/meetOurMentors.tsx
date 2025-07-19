@@ -56,36 +56,44 @@ import Heading from "../heading";
 
 const MentorsImage = [
   {
-    ImageUrl:"/claylab assets/mentorshipProgram/meetOurMentors/Component 10.png",
+    ImageUrl:
+      "/claylab assets/mentorshipProgram/meetOurMentors/Component 10.png",
     place: "Bengalaru",
     Name: "Rohan Mehta",
-    description: "AI researcher with over 12 years of experience in deep learning and computer vision.",
+    description:
+      "AI researcher with over 12 years of experience in deep learning and computer vision.",
   },
   {
-    ImageUrl:"/claylab assets/mentorshipProgram/meetOurMentors/Component 11.png",
-    place:"Pune",
-    Name:"Nidhi Verma",
-    description:"Lead software engineer mentoring aspiring full-stack developers since 2015"
+    ImageUrl:
+      "/claylab assets/mentorshipProgram/meetOurMentors/Component 11.png",
+    place: "Pune",
+    Name: "Nidhi Verma",
+    description:
+      "Lead software engineer mentoring aspiring full-stack developers since 2015",
   },
   {
-    ImageUrl:"/claylab assets/mentorshipProgram/meetOurMentors/Component 12.png",
-    place:"Delhi",
-    Name:"Ajay Kumar",
-    description:"Data Scientist at Google with a passion for teaching machine learning and statistics."
+    ImageUrl:
+      "/claylab assets/mentorshipProgram/meetOurMentors/Component 12.png",
+    place: "Delhi",
+    Name: "Ajay Kumar",
+    description:
+      "Data Scientist at Google with a passion for teaching machine learning and statistics.",
   },
   {
-    ImageUrl:"/claylab assets/mentorshipProgram/meetOurMentors/Component 9.png",
-    place:"Mumbai",
-    Name:"Aditi Sharma",
-    description:"Data Scientist at Google with a passion for teaching machine learning and statistics."
+    ImageUrl:
+      "/claylab assets/mentorshipProgram/meetOurMentors/Component 9.png",
+    place: "Mumbai",
+    Name: "Aditi Sharma",
+    description:
+      "Data Scientist at Google with a passion for teaching machine learning and statistics.",
   },
 ];
 
 const MeetMentors = () => {
   return (
-    <section className="relative py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12 sm:mb-16 lg:mb-20">
+    <section className="relative sm:py-10 md:py-2 lg:py-18 px-4 sm:px-6 lg:px-8">
+      <div className=" px-6 mx-auto">
+        <div className="text-left mb-12 sm:mb-16 lg:mb-20">
           <Heading text="Meet Our Mentors" />
         </div>
 
@@ -112,8 +120,9 @@ const MeetMentors = () => {
                   <div className="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition duration-300" />
 
                   {/* Heading 1 (Top Left → moves down) */}
-                  <h4 className="absolute top-3 left-3 text-lg text-white font-openSans transition-all duration-500 transform group-hover:translate-y-56 group-hover:text-green-700">
-                   |{imageData.place}
+                  <h4 className="absolute top-3 left-3 text-lg text-white font-openSans transition-all duration-500 transform  sm:group-hover:translate-y-56 group-hover:translate-y-64 group-hover:text-green-700 flex items-center space-x-1">
+                    <span>|</span>
+                    <span className="text-base mt-1">{imageData.place}</span>
                   </h4>
 
                   {/* Heading 2 (Bottom → moves slightly up) */}

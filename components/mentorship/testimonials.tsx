@@ -121,7 +121,7 @@ export default function TestimonialsGrid() {
               key={index}
               className={`
                 ${testimonial.bgColor} 
-                rounded-xl sm:rounded-2xl 
+                
                 shadow-[8px_8px_16px_rgba(0,0,0,0.15)] 
                 hover:shadow-[12px_12px_24px_rgba(0,0,0,0.25)] 
                 p-4 sm:p-6 md:p-8 
@@ -136,14 +136,16 @@ export default function TestimonialsGrid() {
             >
               {/* Quote */}
               <blockquote className="flex-1 flex items-center justify-center">
-                <p className="font-intrudingCat text-2xl sm:text-base md:text-lg lg:text-xl xl:text-2xl text-center font-medium leading-relaxed sm:leading-relaxed md:leading-loose  text-gray-800 group-hover:text-gray-900 transition-colors duration-300">
+                <p className="font-intrudingCat text-4xl sm:text-base md:text-lg lg:text-xl xl:text-3xl text-center font-medium leading-relaxed sm:leading-relaxed md:leading-loose  text-gray-800 group-hover:text-gray-900 transition-colors duration-300">
+                {/* <p className="font-intrudingCat text-base sm:text-xl md:text-xl lg:text-2xl xl:text-3xl  text-center font-medium leading-relaxed sm:leading-relaxed md:leading-loose text-gray-800 group-hover:text-gray-900 transition-colors duration-300"> */}
+
                   {testimonial.quote}
                 </p>
               </blockquote>
               
               {/* Attribution */}
               <footer className="mt-4 sm:mt-6">
-                <cite className="font-intrudingCat text-1xl sm:text-sm md:text-base lg:text-lg font-semibold text-right block text-gray-700 group-hover:text-gray-800 transition-colors duration-300 not-italic">
+                <cite className="font-intrudingCat text-1xl sm:text-sm md:text-base lg:text-xl font-semibold text-right block text-gray-700 group-hover:text-gray-800 transition-colors duration-300 not-italic">
                   — {testimonial.name}
                 </cite>
               </footer>
@@ -151,8 +153,9 @@ export default function TestimonialsGrid() {
           ))}
         </div>
 
+
         {/* Optional CTA Section */}
-        <div className="text-center mt-12 sm:mt-16 lg:mt-20">
+        {/* <div className="text-center mt-12 sm:mt-16 lg:mt-20">
           <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto">
             Ready to create your own success story?
           </p>
@@ -160,7 +163,9 @@ export default function TestimonialsGrid() {
           <button className="inline-flex items-center px-6 sm:px-8 md:px-10 py-3 sm:py-4 bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white rounded-lg sm:rounded-xl font-medium text-sm sm:text-base md:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
             Join Our Program
           </button>
-        </div>
+        </div> */}
+
+
       </div>
     </section>
   );

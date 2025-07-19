@@ -7,8 +7,8 @@ const stats = [
     description: [
       "Mentors feel they are making",
       "a positive difference in the society",
-      "while volunteering at ClayClub."
-    ]
+      "while volunteering at ClayClub.",
+    ],
   },
   {
     value: "92%",
@@ -16,8 +16,8 @@ const stats = [
     description: [
       "Mentees reported that the program",
       "helped them do better in school",
-      "activities and in academics."
-    ]
+      "activities and in academics.",
+    ],
   },
   {
     value: "75%",
@@ -25,10 +25,10 @@ const stats = [
     description: [
       "Mentees showed improved career readiness",
       "from level 2 to level 3",
-      "on our rubric."
-    ]
-  }
-]
+      "on our rubric.",
+    ],
+  },
+];
 
 const statsRow2 = [
   {
@@ -37,8 +37,8 @@ const statsRow2 = [
     description: [
       "Mentees participated in structures",
       "apart from mentorship like Clay talkies,",
-      "competitions for pairs, etc."
-    ]
+      "competitions for pairs, etc.",
+    ],
   },
   {
     value: "16%",
@@ -46,10 +46,11 @@ const statsRow2 = [
     description: [
       "Super Mentors and SM Coach trainings",
       "were conducted",
-      "for our Mentors."
-    ]
-  }
-]
+      "for our Mentors.",
+    ],
+  },
+];
+
 
 const CountUpNumber = ({ target, suffix = "%" }: { target: number; suffix?: string }) => {
   const [count, setCount] = useState(0)

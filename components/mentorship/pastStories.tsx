@@ -161,7 +161,7 @@ const PastStories = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-8 sm:mb-12 md:mb-16 lg:mb-20">
-          <h3 className="font-roughScript text-5xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-green-800 mb-2 sm:mb-4">
+          <h3 className="font-hendrigo text-5xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-green-800 mb-2 sm:mb-4">
             Past Stories
           </h3>
           
@@ -204,17 +204,20 @@ const PastStories = () => {
                     alt={`Story ${index + 1} profile`}
                     fill
                     sizes="(max-width: 640px) 80px, (max-width: 1024px) 96px, 128px"
-                    className="object-cover rounded-full border-3 sm:border-4 md:border-5 border-white shadow-lg transition-transform duration-300 group-hover:scale-110"
+                    className="object-cover rounded-full transition-transform duration-300 group-hover:scale-110"
                     loading="lazy"
                   />
                 </div>
               </div>
+
+
+
             </div>
           ))}
         </div>
 
         {/* Optional CTA Section */}
-        <div className="text-center mt-16 sm:mt-20 lg:mt-24">
+        {/* <div className="text-center mt-16 sm:mt-20 lg:mt-24">
           <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto">
             Every story is unique. Every journey transforms lives. Start your own mentorship story today.
           </p>
@@ -222,7 +225,9 @@ const PastStories = () => {
           <button className="inline-flex items-center px-6 sm:px-8 md:px-10 py-3 sm:py-4 bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white rounded-lg sm:rounded-xl font-medium text-sm sm:text-base md:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
             Share Your Story
           </button>
-        </div>
+        </div> */}
+
+
       </div>
     </section>
   )

@@ -4,12 +4,23 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   darkMode: ["class"],
   content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
+      
+      animation: {
+        'scroll': 'scroll 20s linear infinite',
+      },
+      
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' }
+        }
+      },
       variants: {
         scrollbar: ['rounded'],
       },
@@ -21,6 +32,8 @@ const config: Config = {
         meowScript: ['var(--font-meowScript)'],
         intrudingCat: ['IntrudingCat', 'cursive'],
         caliSign: ['CaliSign', 'cursive'],
+        kindsans: ['var(--font-kind-sans)', 'sans-serif'],
+        hendrigo: ['var(--font-hendrigo)', 'sans-serif'],
       },
       colors: {
         background: "hsl(var(--background))",

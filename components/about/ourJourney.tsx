@@ -5,7 +5,7 @@ export default function OurJourney() {
     <section className="relative py-8 sm:py-12 md:py-16 px-2 sm:px-4">
       <div className="max-w-full md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
         {/* Left Sticky Section */}
-        <div className="sticky top-20 h-fit self-start ">
+        <div className="md:sticky md:top-20 md:h-fit self-start ">
           <div className="space-y-4 sm:space-y-6 my-auto">
             <h2 className="text-3xl sm:text-6xl md:text-8xl font-roughScript text-green-900 leading-tight">
               Our Journey
