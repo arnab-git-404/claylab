@@ -57,11 +57,11 @@ const PillarsOfApproach = () => {
               </div> */}
 
               {/* Description */} {/* This need to be fixed later in animation*/}
-              {/* <div className="absolute inset-0 flex items-center justify-center px-2 sm:px-4 text-center">
+              <div className="absolute inset-0 flex items-center justify-center px-2 sm:px-4 text-center">
                 <p className="text-white text-xs sm:text-xl max-w-xs opacity-0 translate-y-5 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out">
                   {pillar.description}
                 </p>
-              </div> */}
+              </div>
 
             </div>
           </div>

@@ -1,9 +1,10 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import { MapPin } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import Heading from "../heading"
+import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { MapPin } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Heading from "../heading";
 
 interface CardProps {
   title: string;
@@ -20,6 +21,7 @@ export const cardsData = [
     tags: ["equality", "employment", "education"],
     location: "Haryana",
     image: "/claylab assets/entrepreneurshipProgram/whatYouGet/Seventy1 1.png",
+    
   },
   {
     title: "Mentorship",
@@ -72,11 +74,15 @@ export const cardsData = [
   },
 ];
 
-
 function WorkshopCard({ title, description, tags, location, image }: CardProps) {
-  return (
+  const router = useRouter();
 
-    <div className="max-w-sm h-full flex flex-col rounded-3xl overflow-hidden bg-gradient-to-b from-green-200 to-green-800 shadow-md p-4">
+  return (
+    <div
+      className="max-w-sm h-full flex flex-col rounded-3xl overflow-hidden 
+      bg-gradient-to-b from-green-200 to-green-800 shadow-md p-4 
+      transition-transform transform hover:scale-105 hover:shadow-2xl duration-300"
+    >
       <div className="relative w-full h-48 rounded-2xl overflow-hidden">
         <Image src={image} alt={title} fill className="object-cover" />
       </div>
@@ -103,8 +109,17 @@ function WorkshopCard({ title, description, tags, location, image }: CardProps) 
             <MapPin size={16} className="text-white" />
             {location}
           </div>
-          <Image src={"/claylab assets/general/WifiIcon.png"} alt={"wifi-icon"} height={16} width={16} className="h-auto ml-auto mr-3  w-6 " />
-          <Button className="rounded-full bg-[#3eb769] px-4 py-1 h-8 text-white text-sm hover:bg-[#35a85f]">
+          <Image
+            src={"/claylab assets/general/WifiIcon.png"}
+            alt={"wifi-icon"}
+            height={16}
+            width={16}
+            className="h-auto ml-auto mr-3 w-6"
+          />
+          <Button
+            className="rounded-full bg-[#3eb769] px-4 py-1 h-8 text-white text-sm hover:bg-[#35a85f]"
+            onClick={() => router.push("/workshop")}
+          >
             Support
           </Button>
         </div>
@@ -117,7 +132,7 @@ export default function WorkshopGrid() {
   return (
     <section className="py-8 sm:py-10 px-2 sm:px-4 md:px-16 min-h-screen">
       <Heading text={"What you get?"} />
-        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+      <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
         {cardsData.map((card, index) => (
           <WorkshopCard key={index} {...card} />
         ))}

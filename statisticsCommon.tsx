@@ -108,8 +108,8 @@ const CountUpNumber = ({ target, suffix = "%" }: { target: number; suffix?: stri
 
 const StatisticsCommon = () => {
   return (
-    <section className="py-8 sm:py-12 md:py-16 px-4">
-      <div className="max-w-6xl mx-auto space-y-6">
+    <section className="py-4 sm:py-8 md:py-4">
+      <div className="max-w-7xl mx-auto space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {stats.map((stat, index) => (
             <div
@@ -142,7 +142,7 @@ const StatisticsCommon = () => {
               className={"rounded-2xl p-6 flex flex-col justify-between h-48 min-w-[200px] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl cursor-pointer group bg-gradient-to-r from-green-600 to-green-100/30 hover:from-green-200 hover:to-green-200/40"
               }
             >
-              <div className={"text-green-900 text-4xl font-bold group-hover:scale-110 transition-transform duration-300"}>
+              <div className={"text-green-900 text-4xl group-hover:scale-105 transition-transform duration-300"}>
                 <CountUpNumber target={stat.numericValue} />
               </div>
               <div
