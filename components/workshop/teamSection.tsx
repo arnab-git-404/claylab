@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const teamMembers = [
   {
     name: "John Doe",
@@ -25,10 +27,11 @@ export default function TeamSection() {
             key={index}
             className="relative w-full max-w-[334px] sm:w-[45%] md:w-[30%] aspect-square mx-auto"
           >
-            <img
+            <Image
               src={member.image}
               alt={member.name}
-              className="w-full h-full object-cover rounded-lg"
+              fill
+              className="object-cover rounded-lg"
             />
             <div className="absolute bottom-0 w-full text-white text-center text-2xl font-sans py-4 rounded-b-lg">
               {member.role}

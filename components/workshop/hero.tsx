@@ -1,8 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { MapPin, Wifi } from "lucide-react";
-import { RadioTower } from "lucide-react";
+import { MapPin} from "lucide-react";
 
 export default function Hero() {
   const donateUrl =
