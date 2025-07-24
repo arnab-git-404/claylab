@@ -12,6 +12,7 @@ interface CardProps {
   tags: string[];
   location: string;
   image: string;
+  routePath?: string;
 }
 
 export const cardsData = [
@@ -21,7 +22,7 @@ export const cardsData = [
     tags: ["equality", "employment", "education"],
     location: "Haryana",
     image: "/claylab assets/entrepreneurshipProgram/whatYouGet/Seventy1 1.png",
-    
+    routePath: "/workshop",
   },
   {
     title: "Mentorship",
@@ -29,6 +30,7 @@ export const cardsData = [
     tags: ["equality", "employment", "education"],
     location: "Pune",
     image: "/claylab assets/entrepreneurshipProgram/whatYouGet/daughter-mother-watering-plant 1.png",
+    routePath: "/mentorship",
   },
   {
     title: "Projects",
@@ -74,14 +76,25 @@ export const cardsData = [
   },
 ];
 
-function WorkshopCard({ title, description, tags, location, image }: CardProps) {
+function WorkshopCard({ title, description, tags, location, image, routePath }: CardProps) {
   const router = useRouter();
+
+  const isClickable = !!routePath;
+
+  const handleCardClick = () => {
+    if (isClickable && routePath) {
+      router.push(routePath);
+    }
+  };
 
   return (
     <div
-      className="max-w-sm h-full flex flex-col rounded-3xl overflow-hidden 
+      onClick={handleCardClick}
+      className={`max-w-sm h-full flex flex-col rounded-3xl overflow-hidden cursor-pointer 
       bg-gradient-to-b from-green-200 to-green-800 shadow-md p-4 
-      transition-transform transform hover:scale-105 hover:shadow-2xl duration-300"
+      transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ${
+        !isClickable ? "cursor-default" : ""
+      }`}
     >
       <div className="relative w-full h-48 rounded-2xl overflow-hidden">
         <Image src={image} alt={title} fill className="object-cover" />
@@ -118,7 +131,10 @@ function WorkshopCard({ title, description, tags, location, image }: CardProps) 
           />
           <Button
             className="rounded-full bg-[#3eb769] px-4 py-1 h-8 text-white text-sm hover:bg-[#35a85f]"
-            onClick={() => router.push("/workshop")}
+            onClick={(e) => {
+              e.stopPropagation(); // prevent card click
+              router.push("/support");
+            }}
           >
             Support
           </Button>
