@@ -90,7 +90,7 @@ const pillars = [
   {
     title: "Entrepreneurial Thinking",
     description: "Encouraging students to identify problems, design solutions, and lead projects that create real impact.",
-    image: "/claylab assets/home/pillarsOfApproach/secondPillarsOfApproach.jpg",
+    image: "/claylab assets/home/pillarsOfApproach/secondPillarsOfApproach.JPG",
   },
   {
     title: "Social Capital",
