@@ -290,8 +290,7 @@ const WhyWeExist = () => {
           <div className="max-w-full sm:max-w-xl mb-4 md:mb-0 md:flex-1">
             <Heading text="Why we exist?" />
             <p className="text-lg mt-16 sm:text-2xl md:text-xl  leading-relaxed">
-              In India, too many young people finish school without the skills, confidence, 
-              or opportunities to build the lives they dream of.
+              {'In India, too many young people finish school without the skills, confidence, or opportunities to build the lives they dream of.'}
               <a 
                 href="https://www.thehindu.com/business/budget/economic-survey-2023-24-only-51-percent-indian-graduated-employable-survey-says/article68432324.ece" 
                 target="_blank" 
@@ -299,9 +298,8 @@ const WhyWeExist = () => {
                 className="text-blue-600 hover:underline hover:cursor-pointer font-bold"
               > More than 50% of college graduates are considered unemployable.
               </a>{" "}
-              Majority of the Schools continue to focus narrowly on academics and exams, while neglecting life-readiness. 
-              Sometimes these schools don't have resources and awareness to bring this kind of holistic education.<br/> 
-             <strong>This is where we come in.</strong>
+              {` Majority of the Schools continue to focus narrowly on academics and exams, while neglecting life-readiness. Sometimes these schools don't have resources and awareness to bring this kind of holistic education.<br/> `}
+              <strong>This is where we come in.</strong>
             </p>
           </div>
 
