@@ -132,7 +132,7 @@ const PillarsOfApproach = () => {
 
             {/* Overlay */}
             {/* <div className="absolute inset-0 bg-black/30"> */}
-            <div className="absolute inset-0 bg-black/30">
+            <div className="absolute inset-0 ">
 
               {/* Title */}
               <div className="absolute bottom-2 sm:bottom-4 w-full text-center px-2 sm:px-4 transition-all duration-500 ease-in-out group-hover:opacity-0 group-hover:translate-y-5">
