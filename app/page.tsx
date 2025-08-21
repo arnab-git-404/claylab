@@ -5,10 +5,11 @@ import Hero from "@/components/home/hero";
 import Stats from "@/components/home/stats";
 import WhyWeExist from "@/components/home/whyWeExist";
 import PillarsOfApproach from "@/components/home/pillarsOfApproach";
-import WhoCanBeMentor from "@/components/home/whoCanBeMentor";
-import PastEvents from "@/components/home/pastEvents";
 import AwardsAndRecognitions from "@/components/home/awardsRecognition";
 import JoinMovement from "@/components/home/joinMovement";
+import OurVision from "@/components/home/ourVision";
+// import PastEvents from "@/components/home/pastEvents";
+// import WhoCanBeMentor from "@/components/home/whoCanBeMentor";
 
 export default function Home() {
 
@@ -18,8 +19,9 @@ export default function Home() {
       <Stats />
       <WhyWeExist />
       <PillarsOfApproach />
-      <WhoCanBeMentor />
-      <PastEvents />
+      {/* <WhoCanBeMentor /> */}
+      {/* <PastEvents /> */}
+      <OurVision/>
       <AwardsAndRecognitions />
       <JoinMovement />
     </div>

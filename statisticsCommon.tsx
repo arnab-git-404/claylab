@@ -99,7 +99,7 @@ const CountUpNumber = ({ target, suffix = "%" }: { target: number; suffix?: stri
   return (
     <h2
       ref={elementRef}
-      className="text-9xl font-openSans font-light transition-all duration-300"
+      className="text-5xl font-openSans font-light transition-all duration-300"
     >
       {count}{suffix}
     </h2>
@@ -167,7 +167,7 @@ const StatisticsCommon = () => {
                   : "bg-gradient-to-r from-green-600 to-green-100/30 hover:from-green-200 hover:to-green-200/40 hover:shadow-lg"
               }`}
             >
-              <div className={`${index === 0 ? "text-green-600 text-5xl" : "text-green-900 text-4xl"} transition-transform duration-300`}>
+              <div className={`${index === 0 ? "text-green-600 " : "text-green-900 "} transition-transform duration-300`}>
                 <CountUpNumber target={stat.numericValue} />
               </div>
               <div

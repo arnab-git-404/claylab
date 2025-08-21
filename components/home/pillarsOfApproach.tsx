@@ -83,31 +83,34 @@ import Image from "next/image";
 
 const pillars = [
   {
-    title: "Quality Education",
-    description: "We focus on providing strong foundational knowledge that empowers learners for life.",
-    image: "/claylab assets/home/pillarsOfApproach/Component 1pillarsOfApproach.png",
+    title: "Life Skills & Future Readiness",
+    description: " Building agency, confidence, and practical 21st-century skills that help teenagers thrive in the real world.",
+    image: "/claylab assets/home/pillarsOfApproach/first-one.jpg",
   },
   {
-    title: "Community-Driven Support",
-    description: "Youth are supported by a collective network of mentors, peers, and community members.",
-    image: "/claylab assets/home/pillarsOfApproach/Component 2pillarsOfApproach.png",
+    title: "Entrepreneurial Thinking",
+    description: "Encouraging students to identify problems, design solutions, and lead projects that create real impact.",
+    image: "/claylab assets/home/pillarsOfApproach/secondPillarsOfApproach.jpg",
   },
   {
-    title: "Child-Centered Learning",
-    description: "We adapt learning styles and pace to suit each child's unique needs and talents.",
-    image: "/claylab assets/home/pillarsOfApproach/Component 3pillarsOfApproach.png",
+    title: "Social Capital",
+    description: "Connecting students with mentors, networks, and opportunities that expand horizons and open doors.",
+    image: "/claylab assets/home/pillarsOfApproach/thirdPillarsOfApproach.HEIC",
   },
   {
-    title: "Mentorship with Heart",
-    description: "Our mentors lead with empathy, compassion, and commitment to growth.",
-    image: "/claylab assets/home/pillarsOfApproach/Component 4pillarsOfApproach.png",
+    title: "Learn by Doing",
+    description: "Students don’t just learn — they practice. From running community projects to pitching ideas, they see their learning come alive.",
+    image: "/claylab assets/home/pillarsOfApproach/fourthPillarsOfApproach.png",
   },
 ];
 
 const PillarsOfApproach = () => {
   return (
     <section className="py-8 sm:py-10 px-2 sm:px-4 md:px-16">
-      <Heading text="Pillars of Approach" />
+      {/* <Heading text="Pillars of Approach" /> */}
+<Heading text="The Claylab Approach" />
+<h1 className="text-2xl mt-8" >We prepare students for the future through four interconnected pillars :</h1>
+
       {/* <div className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         {pillars.map((pillar, index) => ( */}
 
@@ -128,11 +131,13 @@ const PillarsOfApproach = () => {
             />
 
             {/* Overlay */}
+            {/* <div className="absolute inset-0 bg-black/30"> */}
             <div className="absolute inset-0 bg-black/30">
+
               {/* Title */}
-              {/* <div className="absolute bottom-2 sm:bottom-4 w-full text-center px-2 sm:px-4 transition-all duration-500 ease-in-out group-hover:opacity-0 group-hover:translate-y-5">
+              <div className="absolute bottom-2 sm:bottom-4 w-full text-center px-2 sm:px-4 transition-all duration-500 ease-in-out group-hover:opacity-0 group-hover:translate-y-5">
                 <h3 className="text-white text-lg sm:text-4xl text-start font-semibold">{pillar.title}</h3>
-              </div> */}
+              </div>
 
               {/* Description */} {/* This need to be fixed later in animation*/}
               <div className="absolute inset-0 flex items-center justify-center px-2 sm:px-4 text-center">

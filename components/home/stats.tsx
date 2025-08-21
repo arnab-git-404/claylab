@@ -1,23 +1,85 @@
 "use client"
 
+import React, { useEffect, useRef, useState } from "react";
+
 const stats = [
   {
-    number: "1000+",
-    label: "Students supported",
+    number: 5000,
+    label: "Students supported in Last 5 year",
   },
   {
-    number: "100+",
-    label: "Mentors engaged",
+    number: 3000,
+    label: "Volunteers engaged",
   },
   {
-    number: "5+",
-    label: "Programs tracked",
+    number: 20,
+    label: "Schools partnered",
   },
-  {
-    number: "1000+",
-    label: `children helping everyday`,
-  },
+  // {
+  //   number: "100+",
+  //   label: "Mentors engaged",
+  // },
+  // {
+  //   number: "1000+",
+  //   label: `children helping everyday`,
+  // },
 ]
+
+
+const CountUpNumber = ({ target, suffix = "+" }: { target: number; suffix?: string }) => {
+  const [count, setCount] = useState(0)
+  const [isVisible, setIsVisible] = useState(false)
+  const elementRef = useRef<HTMLHeadingElement>(null)
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true)
+        }
+      },
+      { threshold: 0.1 }
+    )
+
+    if (elementRef.current) {
+      observer.observe(elementRef.current)
+    }
+
+    return () => observer.disconnect()
+  }, [])
+
+  useEffect(() => {
+    if (!isVisible) return
+
+    const duration = 2000
+    const steps = 60
+    const increment = target / steps
+    const stepDuration = duration / steps
+
+    let currentStep = 0
+    const timer = setInterval(() => {
+      currentStep++
+      const newCount = Math.min(Math.round(increment * currentStep), target)
+      setCount(newCount)
+
+      if (currentStep >= steps) {
+        clearInterval(timer)
+      }
+    }, stepDuration)
+
+    return () => clearInterval(timer)
+  }, [isVisible, target])
+
+  return (
+    <h2
+      ref={elementRef}
+      className="text-4xl font-openSans font-light transition-all duration-300"
+    >
+      {count}{suffix}
+    </h2>
+  )
+}
+
 
 export default function Stats() {
   return (
@@ -25,7 +87,7 @@ export default function Stats() {
       <div className="w-5xl sm:w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center px-2 sm:px-4 gap-4 sm:gap-0">
         {stats.map((stat, index) => (
           <div key={index} className="flex flex-col text-center gap-2 sm:gap-6 w-full sm:w-auto transition-transform duration-300 scale-105">
-            <div className="text-2xl sm:text-4xl underline">{stat.number}</div>
+            <div className="text-2xl sm:text-4xl underline">  <CountUpNumber target={stat.number} /></div>
             <div className="text-lg sm:text-3xl flex flex-col text-center max-w-56 gap-2 sm:gap-6">{stat.label}</div>
           </div>
         ))}

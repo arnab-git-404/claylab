@@ -1,5 +1,7 @@
+
 "use client";
 
+import { motion } from "framer-motion";
 import React from "react";
 import Hero from "@/components/support/hero";
 import TheImpact from "@/components/support/theImpact";
@@ -14,3 +16,7 @@ export default function Home() {
     </div>
   );
 }
+
+
+
+
