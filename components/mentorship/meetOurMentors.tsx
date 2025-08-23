@@ -197,44 +197,44 @@
 
 "use client";
 
-import Image from "next/image";
+// import Image from "next/image";
 import Heading from "../heading";
-import { CheckCircle, Users, Globe, Clock } from "lucide-react";
+import { Users, Globe, Clock } from "lucide-react";
 
-const MentorsImage = [
-  {
-    ImageUrl:
-      "/claylab assets/mentorshipProgram/meetOurMentors/Component 10.png",
-    place: "Bengaluru",
-    Name: "Rohan Mehta",
-    description:
-      "AI researcher with over 12 years of experience in deep learning and computer vision.",
-  },
-  {
-    ImageUrl:
-      "/claylab assets/mentorshipProgram/meetOurMentors/Component 11.png",
-    place: "Pune",
-    Name: "Nidhi Verma",
-    description:
-      "Lead software engineer mentoring aspiring full-stack developers since 2015",
-  },
-  {
-    ImageUrl:
-      "/claylab assets/mentorshipProgram/meetOurMentors/Component 12.png",
-    place: "Delhi",
-    Name: "Ajay Kumar",
-    description:
-      "Data Scientist at Google with a passion for teaching machine learning and statistics.",
-  },
-  {
-    ImageUrl:
-      "/claylab assets/mentorshipProgram/meetOurMentors/Component 9.png",
-    place: "Mumbai",
-    Name: "Aditi Sharma",
-    description:
-      "Data Scientist at Google with a passion for teaching machine learning and statistics.",
-  },
-];
+// const MentorsImage = [
+//   {
+//     ImageUrl:
+//       "/claylab assets/mentorshipProgram/meetOurMentors/Component 10.png",
+//     place: "Bengaluru",
+//     Name: "Rohan Mehta",
+//     description:
+//       "AI researcher with over 12 years of experience in deep learning and computer vision.",
+//   },
+//   {
+//     ImageUrl:
+//       "/claylab assets/mentorshipProgram/meetOurMentors/Component 11.png",
+//     place: "Pune",
+//     Name: "Nidhi Verma",
+//     description:
+//       "Lead software engineer mentoring aspiring full-stack developers since 2015",
+//   },
+//   {
+//     ImageUrl:
+//       "/claylab assets/mentorshipProgram/meetOurMentors/Component 12.png",
+//     place: "Delhi",
+//     Name: "Ajay Kumar",
+//     description:
+//       "Data Scientist at Google with a passion for teaching machine learning and statistics.",
+//   },
+//   {
+//     ImageUrl:
+//       "/claylab assets/mentorshipProgram/meetOurMentors/Component 9.png",
+//     place: "Mumbai",
+//     Name: "Aditi Sharma",
+//     description:
+//       "Data Scientist at Google with a passion for teaching machine learning and statistics.",
+//   },
+// ];
 
 const mentorHighlights = [
   {

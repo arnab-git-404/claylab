@@ -33,7 +33,8 @@
 
 'use client'
 
-import Image from "next/image";
+// import Image from "next/image";
+
 import Heading from "../heading";
 import { CheckCircle, Users, Target, BookOpen, MapPin, Network, FileText } from "lucide-react";
 
