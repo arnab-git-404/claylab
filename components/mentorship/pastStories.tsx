@@ -157,8 +157,8 @@ const ImageData = [
 
 const PastStories = () => {
   return (
-    <section className="py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+    <section className="py-10 sm:py-10 md:py-10 lg:py-10 px-4 sm:px-6 lg:px-8">
+      <div className=" mx-auto">
         {/* Header Section */}
         <div className="text-center mb-8 sm:mb-12 md:mb-16 lg:mb-20">
           <h3 className="font-hendrigo text-5xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-green-800 mb-2 sm:mb-4">
@@ -217,15 +217,14 @@ const PastStories = () => {
         </div>
 
         {/* Optional CTA Section */}
-        {/* <div className="text-center mt-16 sm:mt-20 lg:mt-24">
-          <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto">
-            Every story is unique. Every journey transforms lives. Start your own mentorship story today.
-          </p>
+        <div className="text-center mt-16 sm:mt-20 lg:mt-24">
+          <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-6 sm:mb-8 max-w-5xl mx-auto">
+With a mission to handhold their students till they get decent employment, Claylab focussed on holistic education of students. As it all happened in the middle of the pandemic, most of our programs were started as online spaces and with the time, we narrowed  down on 2 flagship initiatives — the Mentorship Program and the School of Entrepreneurship. Together, these have supported thousands of students to build social capital, leadership skills, and entrepreneurial mindsets.          </p>
           
-          <button className="inline-flex items-center px-6 sm:px-8 md:px-10 py-3 sm:py-4 bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white rounded-lg sm:rounded-xl font-medium text-sm sm:text-base md:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+          {/* <button className="inline-flex items-center px-6 sm:px-8 md:px-10 py-3 sm:py-4 bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white rounded-lg sm:rounded-xl font-medium text-sm sm:text-base md:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
             Share Your Story
-          </button>
-        </div> */}
+          </button> */}
+        </div>
 
 
       </div>

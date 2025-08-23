@@ -103,11 +103,11 @@ export const mentorshipSteps = [
 
 const MentorshipJourney = () => {
   return (
-    <section className="py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-8">
+    <section className=" lg:py-24 px-4 sm:px-6 lg:px-8">
       <div className="px-6">
         {/* Header */}
         <div className="text-left mb-8 sm:mb-12 md:mb-16 lg:mb-20">
-          <Heading text="Ready to start your mentorship journey" />
+          <Heading text="Our Approach" />
         </div>
 
         {/* Steps Grid */}
@@ -156,12 +156,16 @@ const MentorshipJourney = () => {
           ))}
         </div>
 
+        <p className="mt-10 text-4xl" >This approach ensures that every student grows into a confident leader, ready for the challenges of the 21st century.</p>
+
         {/* Optional CTA Section */}
-        <div className="text-center mt-12 sm:mt-16 lg:mt-20">
+        {/* <div className="text-center mt-12 sm:mt-16 lg:mt-20">
           <button className="inline-flex items-center px-6 sm:px-8 md:px-10 py-3 sm:py-4 bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white rounded-lg sm:rounded-xl font-medium text-sm sm:text-base md:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
             Start Your Journey Today
           </button>
-        </div>
+        </div> */}
+
+
       </div>
     </section>
   )
