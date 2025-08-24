@@ -13,7 +13,7 @@ interface JourneyPhase {
 const RocketJourneyAnimation: React.FC = () => {
 
   const [currentPhase, setCurrentPhase] = useState<number>(0);
-  const [isAnimating, setIsAnimating] = useState<boolean>(true);
+  // const [isAnimating, setIsAnimating] = useState<boolean>(true);
 
   const phases: JourneyPhase[] = [
     {
