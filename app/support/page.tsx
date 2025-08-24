@@ -2,12 +2,15 @@
 "use client";
 
 import React from "react";
-import { useEffect, useRef, useState } from "react";
 import Hero from "@/components/support/hero";
-import TheImpact from "@/components/support/theImpact";
 import FAQ from "@/components/support/faq";
 import CountingNo from "@/components/support/countingNo";
 import WaysToSupportUs from "@/components/support/waysToSupportUs";
+
+
+// import { useEffect, useRef, useState } from "react";
+// import TheImpact from "@/components/support/theImpact";
+
 
 
 export default function Home() {
