@@ -146,7 +146,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
-import { nav } from "framer-motion/client";
+
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -328,7 +328,7 @@ export default function Navbar() {
                   {item.title}
                 </Link>
               ))}
-              
+
             </nav>
           </div>
         </>
