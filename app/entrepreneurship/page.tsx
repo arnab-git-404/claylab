@@ -2,10 +2,11 @@
 
 import React from "react";
 import Hero from "@/components/entrepreneurship/hero";
-import WorkshopCard from "@/components/entrepreneurship/whatYouGet";
-import Statistics from "@/components/entrepreneurship/statistics"
 import Syllabus from "@/components/entrepreneurship/syllabus";
+import WorkshopCard from "@/components/entrepreneurship/whatYouGet";
 import Impact from "@/components/entrepreneurship/impact";
+
+// import Statistics from "@/components/entrepreneurship/statistics"
 
 export default function Home() {
   return (
