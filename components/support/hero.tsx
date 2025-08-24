@@ -11,22 +11,19 @@ export default function Hero() {
 
       <section className="w-full flex justify-center  my-10 sm:my-24 py-2 sm:py-12 px-2 sm:px-4">
 
-        <div className="max-w-7xl bg-gradient-to-r from-[#C3D7C401] to-[#bfe2c1] w-full flex flex-col md:flex-row justify-between rounded-2xl overflow-hidden">
+
+
+
+        <div className=" bg-gradient-to-r from-[#C3D7C401] to-[#bfe2c1] w-full flex flex-col md:flex-row justify-between rounded-2xl overflow-hidden">
           
           <div className="w-full md:w-1/2 flex flex-col justify-center px-4 sm:px-6 py-6 sm:py-8 gap-3 sm:gap-4">
 
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-[#1A1A1A] leading-snug">
-              Just <span className="font-bold">₹1500</span> Can<br />Change a Life.
+            <h2 className="text-2xl sm:text-3xl md:text-5xl font-semibold text-[#1A1A1A] leading-snug">
+              Claylab is built by a community join us in shaping future-ready schools.
             </h2>
 
-            <p className="text-[#1A1A1A] text-sm sm:text-base leading-relaxed">
-              With just ₹1500, you can provide personalized<br />
-              mentorship support for a Grade 10 student — helping<br />
-              them dream bigger, learn deeper, and succeed with<br />
-              confidence.<br /><br />
-              You&apos;ll receive regular updates on their progress.<br />
-              And if you&apos;d like, you can join the journey even more<br />
-              closely — as a volunteer or a mentor.
+            <p className="text-[#1A1A1A] text-sm sm:text-xl leading-relaxed py-16">
+             Thousands of volunteers and donors have already powered Claylab’s journey. Together, we can ensure every teenager builds the skills for life, leadership, and livelihoods.
             </p>
 
             <button 

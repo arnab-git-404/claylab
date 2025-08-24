@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <div className="flex flex-col max-w-screen bg-clay-light-hover gap-10">
       <Hero />
-      <WorkshopCard />
-      <Statistics />
       <Syllabus />
+      <WorkshopCard />
+      {/* <Statistics /> */}
       <Impact />
 
     </div>
