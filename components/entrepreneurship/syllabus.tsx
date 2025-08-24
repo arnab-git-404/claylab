@@ -15,7 +15,9 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { IoMdRocket } from "react-icons/io";
-import Image from "next/image";
+
+// import Image from "next/image";
+
 
 interface JourneyPhase {
   title: string;
@@ -26,7 +28,6 @@ interface JourneyPhase {
 
 const Syllabus = () => {
   const [currentPhase, setCurrentPhase] = useState<number>(0);
-  const [isAnimating, setIsAnimating] = useState<boolean>(true);
 
   const phases: JourneyPhase[] = [
     {
