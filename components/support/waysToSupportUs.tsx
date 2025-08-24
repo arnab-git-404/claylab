@@ -62,7 +62,7 @@ const WaysToSupportUs = () => {
               <div className="w-2 h-2 bg-gray-600 rounded-full mt-2 flex-shrink-0"></div>
               <p className="text-gray-700">
                 <span className="font-semibold">{'₹2,000/month:'}</span> Sponsor a
-                child's education in our partner schools.
+                {`child's education in our partner schools.`}
               </p>
             </div>
             <div className="flex items-start gap-3 justify-center">
