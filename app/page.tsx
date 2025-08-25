@@ -8,7 +8,7 @@ import PillarsOfApproach from "@/components/home/pillarsOfApproach";
 import AwardsAndRecognitions from "@/components/home/awardsRecognition";
 import JoinMovement from "@/components/home/joinMovement";
 import OurVision from "@/components/home/ourVision";
-// import PastEvents from "@/components/home/pastEvents";
+import PastEvents from "@/components/home/pastEvents";
 // import WhoCanBeMentor from "@/components/home/whoCanBeMentor";
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
       <WhyWeExist />
       <PillarsOfApproach />
       {/* <WhoCanBeMentor /> */}
-      {/* <PastEvents /> */}
+      <PastEvents />
       <OurVision/>
       <AwardsAndRecognitions />
       <JoinMovement />
