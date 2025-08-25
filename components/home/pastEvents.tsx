@@ -242,11 +242,14 @@ import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-  "/claylab assets/home/pastEvents/husniati-salma-cGjGtaRu_14-unsplash 1.png",
-  "/claylab assets/home/pastEvents/husniati-salma-cGjGtaRu_14-unsplash 1.png",
-  "/claylab assets/home/pastEvents/husniati-salma-cGjGtaRu_14-unsplash 1.png",
-  "/claylab assets/home/pastEvents/husniati-salma-cGjGtaRu_14-unsplash 1.png",
-  "/claylab assets/home/pastEvents/husniati-salma-cGjGtaRu_14-unsplash 1.png",
+  "/claylab assets/home/pastEvents/event-01.jpg",
+  "/claylab assets/home/pastEvents/event-02.jpg",
+  "/claylab assets/home/pastEvents/event-03.png",
+  "/claylab assets/home/pastEvents/event-04.JPG",
+  "/claylab assets/home/pastEvents/event-05.jpg",
+  "/claylab assets/home/pastEvents/event-06.jpg",
+
+
 ];
 
 const PastEvents = () => {
