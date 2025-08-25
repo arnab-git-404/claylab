@@ -77,25 +77,25 @@ import Image from 'next/image'
 export const mentorshipSteps = [
   {
     id: 'I',
-    title: 'Apply mentorship',
+    title: 'Life Skills',
     image: '/claylab assets/mentorshipProgram/mentorshipJourney/63d5361a-6f2b-4d23-818d-6e6da3c26d8a 2.png',
     bg: 'bg-[#e1f0e6]',
   },
   {
     id: 'II',
-    title: 'Get matched',
+    title: 'Entrepreneurial Mindset',
     image: '/claylab assets/mentorshipProgram/mentorshipJourney/ChatGPT Image Jun 19, 2025, 10_38_44 PM 5-1.png',
     bg: 'bg-[#e1f0e6]',
   },
   {
     id: 'III',
-    title: 'Start mentoring',
+    title: 'Social Capital',
     image: '/claylab assets/mentorshipProgram/mentorshipJourney/ChatGPT Image Jun 19, 2025, 10_38_44 PM 5-2.png',
     bg: 'bg-[#d1ebd8]',
   },
   {
     id: 'IV',
-    title: 'Grow together',
+    title: 'Learn by doing',
     image: '/claylab assets/mentorshipProgram/mentorshipJourney/ChatGPT Image Jun 19, 2025, 10_38_44 PM 5.png',
     bg: 'bg-[#d1ebd8]',
   },
