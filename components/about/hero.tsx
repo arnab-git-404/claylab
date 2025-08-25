@@ -81,6 +81,7 @@
 
 
 
+
 // Final ONEE 
 
 "use client"
@@ -102,7 +103,7 @@ export default function Hero() {
       setCurrentImageIndex((prevIndex) => 
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       )
-    }, 4000) // Change image every 4 seconds
+    }, 3000) // Change image every 4 seconds
 
     return () => clearInterval(timer)
   }, [images.length])
