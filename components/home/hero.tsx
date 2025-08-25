@@ -85,8 +85,8 @@ export default function Hero() {
   const images = [
     "/claylab assets/home/hero-01.jpg",
     "/claylab assets/home/hero-02.jpg",
-    "/claylab assets/home/hero-03.JPG",
-    "/claylab assets/home/hero-04.JPG"
+    "/claylab assets/home/hero-03.jpg",
+    "/claylab assets/home/hero-04.jpg"
   ]
 
   useEffect(() => {
