@@ -224,15 +224,8 @@ export default function Navbar() {
         ))}
       </nav>
 
-      {/* Mobile Hamburger Icon */}
-      {/* <button
-        className="md:hidden text-white ml-2 p-2 rounded focus:outline-none focus:ring-2 transition-colors duration-200 hover:bg-white/10"
-        onClick={() => setIsOpen(!isOpen)}
-        aria-label="Toggle Menu"
-      >
-        {isOpen ? <X size={28} /> : <Menu size={28} />}
-      </button> */}
 
+      {/* Mobile Hamburger Icon */}
       <button
         className={`md:hidden ml-2 p-2 rounded focus:outline-none focus:ring-2 transition-colors duration-200 ${
           isScrolled
@@ -245,44 +238,6 @@ export default function Navbar() {
       >
         {isOpen ? <X size={28} /> : <Menu size={28} />}
       </button>
-
-      {/* {isOpen && (
-        <div className="fixed inset-0 w-full h-full bg-black/95 text-white flex flex-col items-center justify-center space-y-8 py-10 px-6 md:hidden z-40 overflow-y-auto">
-          <Link
-            className="hover:underline cursor-pointer text-2xl transition-colors duration-200 hover:text-green-200"
-            href="/"
-            onClick={() => setIsOpen(false)}
-          >
-            Home
-          </Link>
-          <Link
-            className="hover:underline cursor-pointer text-2xl transition-colors duration-200 hover:text-green-200"
-            href="/about"
-            onClick={() => setIsOpen(false)}
-          >
-            About Us
-          </Link>
-          <Link
-            className="hover:underline cursor-pointer text-2xl transition-colors duration-200 hover:text-green-200"
-            href="/mentorship"
-            onClick={() => setIsOpen(false)}
-          >
-            Mentorship Program
-          </Link>
-          <Link
-            className="hover:underline cursor-pointer text-2xl transition-colors duration-200 hover:text-green-200"
-            href="/entrepreneurship"
-            onClick={() => setIsOpen(false)}
-          >
-            Entrepreneurship Program
-          </Link>
-          <Link href="/support" onClick={() => setIsOpen(false)}>
-            <Button className="bg-clay-normal hover:bg-green-600 text-white rounded-full px-8 py-3 text-lg transition-all duration-200 hover:scale-105">
-              Donate Us
-            </Button>
-          </Link>
-        </div>
-      )} */}
 
       {isOpen && (
         <>
