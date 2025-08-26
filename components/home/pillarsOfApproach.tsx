@@ -110,6 +110,7 @@ const PillarsOfApproach = () => {
     <section className="py-8 sm:py-10 px-2 sm:px-4 md:px-16">
       {/* <Heading text="Pillars of Approach" /> */}
       <Heading text="The Claylab Approach" />
+      
       <h1 className="text-2xl mt-8">
         We prepare students for the future through four interconnected pillars :
       </h1>
@@ -117,7 +118,7 @@ const PillarsOfApproach = () => {
       {/* <div className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         {pillars.map((pillar, index) => ( */}
 
-      <div className="mt-16 grid gap-16 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mt-10 grid gap-16 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         {pillars.map((pillar, index) => (
           <div
             key={index}
@@ -133,7 +134,7 @@ const PillarsOfApproach = () => {
             />
 
             {/* Overlay */}
-            {/* <div className="absolute inset-0 bg-black/30"> */}
+            <div className="absolute inset-0 bg-black/60"></div>
             <div className="absolute inset-0">
               {/* Title */}
               <div className="absolute bottom-2 sm:bottom-4 w-full text-center px-2 sm:px-4 transition-all duration-500 ease-in-out group-hover:opacity-0 group-hover:translate-y-5">
