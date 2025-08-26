@@ -249,7 +249,6 @@ const images = [
   "/claylab assets/home/pastEvents/event-05.jpg",
   "/claylab assets/home/pastEvents/event-06.jpg",
 
-
 ];
 
 const PastEvents = () => {
