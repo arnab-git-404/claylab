@@ -41,7 +41,7 @@ export default function Hero() {
         className="object-cover object-center "
       />
 
-      <div className="absolute inset-0 bg-black/40 "></div>
+      <div className="absolute inset-0 bg-black/70 "></div>
 
       {/* <div className="flex flex-col gap-6 sm:gap-8 m-auto w-full px-4 sm:px-8 md:px-0"> */}
 
