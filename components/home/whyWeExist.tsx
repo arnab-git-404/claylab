@@ -298,7 +298,7 @@ const WhyWeExist = () => {
                 className="text-blue-600 hover:underline hover:cursor-pointer font-bold"
               > More than 50% of college graduates are considered unemployable.
               </a>{" "}
-              {` Majority of the Schools continue to focus narrowly on academics and exams, while neglecting life-readiness. Sometimes these schools don't have resources and awareness to bring this kind of holistic education.<br/> `}
+              {` Majority of the Schools continue to focus narrowly on academics and exams, while neglecting life-readiness. Sometimes these schools don't have resources and awareness to bring this kind of holistic education.`}
               <strong>This is where we come in.</strong>
             </p>
           </div>
@@ -309,7 +309,7 @@ const WhyWeExist = () => {
               alt="abstract shape"
               width={700}
               height={240}
-              className=" w-[600px] h-auto object-contain"
+              className=" w-[600px] h-auto object-contain hover:rotate-12 "
             />
             
             <div className="absolute mt-28 transform -translate-y-1/2 z-10">
@@ -331,7 +331,7 @@ const WhyWeExist = () => {
           <div className="space-y-6">
             <h4 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">Our Vision:</h4>
             
-            <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-16">
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
