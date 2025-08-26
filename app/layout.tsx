@@ -4,6 +4,10 @@ import localFont from 'next/font/local';
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/home/footer";
+import  { Toaster } from 'react-hot-toast';
+
+
+
 
 const hendrigo = localFont({
   src: '../public/fonts/Hendrigo.otf',
@@ -36,6 +40,7 @@ export default function RootLayout({
     <html lang="en" className={`${openSans.variable} ${kindSans.variable} ${hendrigo.variable} ${sourceSans.variable} ${roughScript.variable} ${meowScript.variable}`}>
       <body>
         <Navbar/>
+         <Toaster />
         {children}
         <Footer/>
       </body>
