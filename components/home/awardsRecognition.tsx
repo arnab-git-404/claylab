@@ -66,18 +66,6 @@
 
 // // export default AwardsAndRecognitions;
 
-
-
-
-
-
-
-
-
-
-
-
-
 // import Heading from "../heading";
 // import Image from "next/image";
 
@@ -186,7 +174,7 @@
 //             <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
 //             </svg>
-//           </button> 
+//           </button>
 //         </div> */}
 //       </div>
 //     </section>
@@ -194,9 +182,6 @@
 // };
 
 // export default AwardsAndRecognitions;
-
-
-
 
 import Heading from "../heading";
 import Image from "next/image";
@@ -244,8 +229,7 @@ const AwardsAndRecognitions = () => {
 
   return (
     // <section className="py-8 sm:py-10 lg:px-16 pr-2 md:pr-16">
-      <section className="py-6 sm:py-8 lg:py-10 px-4 sm:px-8 lg:pl-16 lg:pr-16 md:pr-16">
-
+    <section className="py-6 sm:py-8 lg:py-10 px-4 sm:px-8 lg:pl-16 lg:pr-16 md:pr-16">
       <div className="mx-auto">
         <div className="mb-12">
           <Heading text="Awards & Recognitions" />
@@ -284,8 +268,8 @@ const AwardsAndRecognitions = () => {
                   {award.description}
                 </p>
               </div>
-
               {/* Hover effect overlay */}
+
               <div className="absolute inset-0 bg-gradient-to-t from-blue-600/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl"></div>
             </div>
           ))}
