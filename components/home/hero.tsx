@@ -114,7 +114,7 @@ export default function Hero() {
         />
       ))}
 
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/70"></div>
 
       <div className="flex flex-col gap-2 sm:gap-8 mx-4 sm:mx-8 md:mx-14 mt-32 sm:mt-44 text-start max-w-full sm:max-w-4xl z-10">
         
