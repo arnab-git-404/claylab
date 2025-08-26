@@ -123,7 +123,7 @@ export default function Hero() {
         />
       ))}
 
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/70"></div>
 
       <div className="flex flex-col gap-4 sm:gap-6 mx-4 sm:mx-8 md:mx-14 mt-16 sm:mt-32 text-start max-w-full sm:max-w-4xl z-10">
         <p style={{ fontWeight: "100" }} className="text-2xl sm:text-5xl md:text-7xl max-w-full sm:max-w-2xl text-white mb-2 sm:mb-6 leading-tight font-sourceSans font-thin">
