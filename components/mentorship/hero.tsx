@@ -226,7 +226,7 @@ export default function Hero() {
         className="object-cover object-center "
       />
 
-      <div className="absolute inset-0 bg-black/40 "></div>
+      <div className="absolute inset-0 bg-black/70 "></div>
 
       <div className="flex flex-col gap-4 sm:gap-6 mx-4 sm:mx-8 md:mx-14 mt-16 sm:mt-32 text-start max-w-full sm:max-w-4xl z-10">
         {/* <h1 className="text-white font-sourceSans font-thin leading-tight">
