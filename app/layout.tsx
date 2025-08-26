@@ -8,7 +8,6 @@ import  { Toaster } from 'react-hot-toast';
 
 
 
-
 const hendrigo = localFont({
   src: '../public/fonts/Hendrigo.otf',
   variable: '--font-hendrigo',
