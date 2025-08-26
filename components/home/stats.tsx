@@ -195,7 +195,7 @@ export default function Stats() {
             <div className="text-2xl sm:text-4xl underline">
               <CountUpNumber target={stat.number} />
             </div>
-            <div className="text-lg sm:text-3xl leading-tight px-2 flex-1 flex items-center justify-center">
+            <div className="text-lg sm:text-2xl leading-tight px-2 flex-1 flex items-center justify-center">
               <span className="max-w-[200px]">{stat.label}</span>
             </div>
           </div>
