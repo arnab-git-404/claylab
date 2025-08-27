@@ -106,7 +106,7 @@ const MentorshipJourney = () => {
     <section className=" lg:py-24 px-4 sm:px-6 lg:px-8">
       <div className="px-6">
         {/* Header */}
-        <div className="text-left mb-8 sm:mb-12 md:mb-16 lg:mb-20">
+        <div className="text-left mb-8 sm:mb-12 md:mb-16 lg:mb-16">
           <Heading text="Our Approach" />
         </div>
 
@@ -156,7 +156,7 @@ const MentorshipJourney = () => {
           ))}
         </div>
 
-        <p className="mt-10 text-4xl" >This approach ensures that every student grows into a confident leader, ready for the challenges of the 21st century.</p>
+        <p className="mt-10 text-2xl" >This approach ensures that every student grows into a confident leader, ready for the challenges of the 21st century.</p>
 
         {/* Optional CTA Section */}
         {/* <div className="text-center mt-12 sm:mt-16 lg:mt-20">
