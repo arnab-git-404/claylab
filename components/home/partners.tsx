@@ -40,6 +40,7 @@ const Partners: React.FC = () => {
 
   return (
     <div className="flex flex-col gap-4  max-w-screen z-10 mt-8">
+      
       <div className="px-4 sm:px-16 ">
         <Heading text="Our Partners" />
       </div>
