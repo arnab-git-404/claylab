@@ -17,7 +17,7 @@ export default function Home() {
       <MentorshipProgram/>
       <MeetMentors />
       <PastStories />
-      <TestimonialsGrid />
+      {/* <TestimonialsGrid /> */}
       <MentorshipForm />
     </div>
   );
