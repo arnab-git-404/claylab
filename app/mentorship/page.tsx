@@ -5,9 +5,10 @@ import Hero from "@/components/mentorship/hero";
 import MentorshipJourney from "@/components/mentorship/mentorshipJourney";
 import MeetMentors from "@/components/mentorship/meetOurMentors";
 import PastStories from "@/components/mentorship/pastStories";
-import TestimonialsGrid from "@/components/mentorship/testimonials";
 import MentorshipForm from "@/components/mentorship/applyMentorhipForm";
 import MentorshipProgram from "@/components/mentorship/mentorshipProgram";
+
+// import TestimonialsGrid from "@/components/mentorship/testimonials";
 
 export default function Home() {
   return (
