@@ -110,42 +110,42 @@ const PillarsOfApproach = () => {
     <section className="py-8 sm:py-10 px-2 sm:px-4 md:px-16">
       {/* <Heading text="Pillars of Approach" /> */}
       <Heading text="The Claylab Approach" />
-      
+
       <h1 className="text-2xl mt-8">
         We prepare students for the future through four interconnected pillars :
       </h1>
 
-      {/* <div className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-        {pillars.map((pillar, index) => ( */}
 
-      <div className="mt-10 grid gap-16 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-        {pillars.map((pillar, index) => (
-          <div
-            key={index}
-            className="relative h-[220px] sm:h-[400px] rounded-lg overflow-hidden group shadow-lg hover:shadow-xl transition-shadow duration-300 hover:scale-105 cursor-pointer transition-transform"
-          >
-            {/* Background Image */}
-            <Image
-              src={pillar.image}
-              alt={pillar.title}
-              width={800}
-              height={400}
-              className="w-full h-full object-cover"
-            />
+<div className="mt-10 grid gap-4 sm:gap-6 md:gap-8 lg:gap-16 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+  {pillars.map((pillar, index) => (
+    <div
+      key={index}
+      className="relative h-[180px] sm:h-[250px] md:h-[320px] lg:h-[400px] rounded-lg overflow-hidden group shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer"
+    >
+      {/* Background Image */}
+      <Image
+        src={pillar.image}
+        alt={pillar.title}
+        width={800}
+        height={400}
+        className="w-full h-full object-cover"
+      />
 
-            {/* Overlay */}
-            <div className="absolute inset-0 bg-black/60"></div>
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/50 sm:bg-black/60"></div>
+      
+
             <div className="absolute inset-0">
               {/* Title */}
-              <div className="absolute bottom-2 sm:bottom-4 w-full text-center px-2 sm:px-4 transition-all duration-500 ease-in-out group-hover:opacity-0 group-hover:translate-y-5">
-                <h3 className="text-white text-lg sm:text-4xl text-start font-semibold">
+              <div className="absolute bottom-2 sm:bottom-4 md:bottom-6 w-full text-center px-2 sm:px-4 md:px-6 transition-all duration-500 ease-in-out group-hover:opacity-0 group-hover:translate-y-5">
+                <h3 className="text-white text-sm sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-start font-semibold leading-tight break-words">
                   {pillar.title}
                 </h3>
               </div>
-              {/* Description */}{" "}
-              {/* This need to be fixed later in animation*/}
-              <div className="absolute inset-0 flex items-center justify-center px-2 sm:px-4 text-center">
-                <p className="text-white text-xs sm:text-xl max-w-xs opacity-0 translate-y-5 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out">
+
+              {/* Description */}
+              <div className="absolute inset-0 flex items-center justify-center px-2 sm:px-4 md:px-6 text-center">
+                <p className="text-white text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl max-w-[90%] sm:max-w-xs md:max-w-sm lg:max-w-md opacity-0 translate-y-5 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out leading-relaxed">
                   {pillar.description}
                 </p>
               </div>
