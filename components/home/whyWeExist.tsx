@@ -286,7 +286,9 @@ const WhyWeExist = () => {
 
       {/* Content */}
       <div className="relative z-10">
+        
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 sm:gap-8 md:gap-16 mb-12">
+
           <div className="max-w-full sm:max-w-xl mb-4 md:mb-0 md:flex-1">
             <Heading text="Why we exist?" />
             <p className="text-lg mt-16 sm:text-2xl md:text-xl  leading-relaxed">
