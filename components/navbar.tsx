@@ -206,13 +206,16 @@ export default function Navbar() {
       className={`w-full flex items-center justify-between px-4 sm:px-6 md:px-14 py-4 md:py-6 z-30 fixed top-0 left-0 right-0 transition-all duration-300 ${"bg-transparent"}`}
     >
       <div className="text-2xl md:text-3xl font-bold flex-shrink-0">
-        <Image
-          src={"/claylab assets/general/claylab-logo.png"}
-          height={32}
-          width={120}
-          alt="claylab-logo"
-          className="w-auto h-8 md:h-10"
-        />
+        <Link href="/">
+          <Image
+            src={"/claylab assets/general/claylab-logo.png"}
+            height={32}
+            width={120}
+            alt="claylab-logo"
+            className="w-auto h-8 md:h-10"
+            
+            />
+            </Link>
       </div>
 
       {/* Desktop Nav */}
