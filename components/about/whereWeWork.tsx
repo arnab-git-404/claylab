@@ -47,7 +47,7 @@ const WhereWeWork = () => {
 
         <div className="flex items-center justify-center h-full">
             <div className="space-y-6 max-w-lg">
-              <p className="text-lg sm:text-xl md:text-4xl text-gray-800 leading-relaxed">
+              <p className="text-lg sm:text-xl md:text-3xl text-gray-800 leading-relaxed">
                 We currently partner with schools in{" "}
                 <strong className="font-semibold">Maharashtra</strong> (Mumbai,
                 Pune) and <strong className="font-semibold">Uttarakhand</strong>{" "}
