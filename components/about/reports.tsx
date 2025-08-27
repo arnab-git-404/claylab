@@ -309,7 +309,7 @@ export default function ReportsSection() {
           height={80}
           width={60}
           alt={"document icon"}
-          className="h-16 w-auto sm:h-20 md:h-24"
+          className="h-16 w-auto sm:h-20 md:h-24  "
         />
       </div>
 
