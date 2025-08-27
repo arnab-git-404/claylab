@@ -13,7 +13,7 @@
 // // //         </p>
 // // //       </div>
 // // //       <div className="relative w-full flex justify-center items-center">
-  
+
 // // //   <Image
 // // //     src="/claylab assets/general/circleGraphics.png"
 // // //     alt="abstract shape"
@@ -35,10 +35,6 @@
 
 // // // export default WhyWeExist;
 
-
-
-
-
 // // import Image from "next/image";
 // // import Heading from "../heading";
 
@@ -48,21 +44,19 @@
 // //       <div className="max-w-full sm:max-w-xl mb-4 md:mb-0 md:flex-1">
 // //         <Heading text="Why we exist?" />
 // //         <p className="text-lg mt-16 sm:text-2xl md:text-3xl  leading-relaxed">
-// //           In India, too many young people finish school without the skills, confidence, 
+// //           In India, too many young people finish school without the skills, confidence,
 // //           or opportunities to build the lives they dream of.
-// //           <a 
-// //             href="https://www.thehindu.com/business/budget/economic-survey-2023-24-only-51-percent-indian-graduated-employable-survey-says/article68432324.ece" 
-// //             target="_blank" 
+// //           <a
+// //             href="https://www.thehindu.com/business/budget/economic-survey-2023-24-only-51-percent-indian-graduated-employable-survey-says/article68432324.ece"
+// //             target="_blank"
 // //             rel="noopener noreferrer"
 // //             className="text-blue-600 hover:underline hover:cursor-pointer font-bold"
 // //           > More than 50% of college graduates are considered unemployable.
 // //           </a>{" "}
-// //           Majority of the Schools continue to focus narrowly on academics and exams, while neglecting life-readiness. 
-// //           Sometimes these schools don’t have resources and awareness to bring this kind of holistic education. 
+// //           Majority of the Schools continue to focus narrowly on academics and exams, while neglecting life-readiness.
+// //           Sometimes these schools don’t have resources and awareness to bring this kind of holistic education.
 // //          <strong>This is where we come in.</strong>
 // //         </p>
-
-
 
 // //       </div>
 // //       <div className="relative w-full md:flex-1 flex justify-center items-center min-h-[300px]">
@@ -73,7 +67,7 @@
 // //           height={240}
 // //           className=" w-[600px] h-auto object-contain"
 // //         />
-        
+
 // //         <div className="absolute mt-28 transform -translate-y-1/2 z-10">
 // //           {/* <p className="text-center sm:text-base md:text-lg text-gray-900 whitespace-nowrap"> */}
 // //             <p className="text-center text-lg sm:text-xl md:text-2xl text-gray-900 whitespace-nowrap">
@@ -90,9 +84,6 @@
 
 // // export default WhyWeExist;
 
-
-
-
 // import Image from "next/image";
 // import Heading from "../heading";
 
@@ -102,21 +93,20 @@
 //       <div className="max-w-full sm:max-w-xl mb-4 md:mb-0 md:flex-1">
 //         <Heading text="Why we exist?" />
 //         <p className="text-lg mt-16 sm:text-2xl md:text-3xl  leading-relaxed">
-//           In India, too many young people finish school without the skills, confidence, 
+//           In India, too many young people finish school without the skills, confidence,
 //           or opportunities to build the lives they dream of.
-//           <a 
-//             href="https://www.thehindu.com/business/budget/economic-survey-2023-24-only-51-percent-indian-graduated-employable-survey-says/article68432324.ece" 
-//             target="_blank" 
+//           <a
+//             href="https://www.thehindu.com/business/budget/economic-survey-2023-24-only-51-percent-indian-graduated-employable-survey-says/article68432324.ece"
+//             target="_blank"
 //             rel="noopener noreferrer"
 //             className="text-blue-600 hover:underline hover:cursor-pointer font-bold"
 //           > More than 50% of college graduates are considered unemployable.
 //           </a>{" "}
-//           Majority of the Schools continue to focus narrowly on academics and exams, while neglecting life-readiness. 
-//           Sometimes these schools don't have resources and awareness to bring this kind of holistic education. 
+//           Majority of the Schools continue to focus narrowly on academics and exams, while neglecting life-readiness.
+//           Sometimes these schools don't have resources and awareness to bring this kind of holistic education.
 //          <strong>This is where we come in.</strong>
 //         </p>
 
-        
 //       </div>
 
 //         {/* Vision Section */}
@@ -124,10 +114,10 @@
 //           <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-green-700 mb-6">
 //             At Claylab, we exist to change this.
 //           </h3>
-          
+
 //           <div className="space-y-6">
 //             <h4 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">Our Vision:</h4>
-            
+
 //             <div className="space-y-4">
 //               <div className="flex items-start gap-3">
 //                 <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
@@ -135,14 +125,14 @@
 //                   We want every school in India to provide <strong>holistic education</strong> that goes beyond textbooks — focusing on life skills, leadership, and future readiness.
 //                 </p>
 //               </div>
-              
+
 //               <div className="flex items-start gap-3">
 //                 <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
 //                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
 //                   We want at least <strong>75% of our students</strong> to graduate as employable, confident young adults, prepared for both livelihoods and leadership.
 //                 </p>
 //               </div>
-              
+
 //               <div className="flex items-start gap-3">
 //                 <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
 //                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
@@ -161,7 +151,7 @@
 //           height={240}
 //           className=" w-[600px] h-auto object-contain"
 //         />
-        
+
 //         <div className="absolute mt-28 transform -translate-y-1/2 z-10">
 //           <p className="text-center text-lg sm:text-xl md:text-2xl text-gray-900 whitespace-nowrap">
 //             {`"5,000+ students supported`}
@@ -176,10 +166,7 @@
 
 // export default WhyWeExist;
 
-
-
-
-// COMPLETED SECTION 
+// COMPLETED SECTION
 // import Image from "next/image";
 // import Heading from "../heading";
 
@@ -191,17 +178,17 @@
 //         <div className="max-w-full sm:max-w-xl mb-4 md:mb-0 md:flex-1">
 //           <Heading text="Why we exist?" />
 //           <p className="text-lg mt-16 sm:text-2xl md:text-3xl  leading-relaxed">
-//             In India, too many young people finish school without the skills, confidence, 
+//             In India, too many young people finish school without the skills, confidence,
 //             or opportunities to build the lives they dream of.
-//             <a 
-//               href="https://www.thehindu.com/business/budget/economic-survey-2023-24-only-51-percent-indian-graduated-employable-survey-says/article68432324.ece" 
-//               target="_blank" 
+//             <a
+//               href="https://www.thehindu.com/business/budget/economic-survey-2023-24-only-51-percent-indian-graduated-employable-survey-says/article68432324.ece"
+//               target="_blank"
 //               rel="noopener noreferrer"
 //               className="text-blue-600 hover:underline hover:cursor-pointer font-bold"
 //             > More than 50% of college graduates are considered unemployable.
 //             </a>{" "}
-//             Majority of the Schools continue to focus narrowly on academics and exams, while neglecting life-readiness. 
-//             Sometimes these schools don't have resources and awareness to bring this kind of holistic education.<br/> 
+//             Majority of the Schools continue to focus narrowly on academics and exams, while neglecting life-readiness.
+//             Sometimes these schools don't have resources and awareness to bring this kind of holistic education.<br/>
 //            <strong>This is where we come in.</strong>
 //           </p>
 //         </div>
@@ -214,7 +201,7 @@
 //             height={240}
 //             className=" w-[600px] h-auto object-contain"
 //           />
-          
+
 //           <div className="absolute mt-28 transform -translate-y-1/2 z-10">
 //             <p className="text-center text-lg sm:text-xl md:text-2xl text-gray-900 whitespace-nowrap">
 //               {`"5,000+ students supported`}
@@ -230,10 +217,10 @@
 //         <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-green-700 mb-6">
 //           At Claylab, we exist to change this.
 //         </h3>
-        
+
 //         <div className="space-y-6">
 //           <h4 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">Our Vision:</h4>
-          
+
 //           <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-6">
 //             <div className="flex items-start gap-3">
 //               <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
@@ -241,14 +228,14 @@
 //                 We want every school in India to provide <strong>holistic education</strong> that goes beyond textbooks — focusing on life skills, leadership, and future readiness.
 //               </p>
 //             </div>
-            
+
 //             <div className="flex items-start gap-3">
 //               <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
 //               <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
 //                 We want at least <strong>75% of our students</strong> to graduate as employable, confident young adults, prepared for both livelihoods and leadership.
 //               </p>
 //             </div>
-            
+
 //             <div className="flex items-start gap-3">
 //               <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
 //               <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
@@ -263,7 +250,6 @@
 // };
 
 // export default WhyWeExist;
-
 
 import Image from "next/image";
 import Heading from "../heading";
@@ -280,40 +266,75 @@ const WhyWeExist = () => {
           className="object-cover object-center opacity-50"
         />
       </div> */}
-      
+
       {/* Background Overlay */}
       {/* <div className="absolute inset-0 bg-white/80 z-[1]"></div> */}
 
       {/* Content */}
       <div className="relative z-10">
-        
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 sm:gap-8 md:gap-16 mb-12">
-
           <div className="max-w-full sm:max-w-xl mb-4 md:mb-0 md:flex-1">
             <Heading text="Why we exist?" />
             <p className="text-lg mt-16 sm:text-2xl md:text-xl  leading-relaxed">
-              {'In India, too many young people finish school without the skills, confidence, or opportunities to build the lives they dream of.'}
-              <a 
-                href="https://www.thehindu.com/business/budget/economic-survey-2023-24-only-51-percent-indian-graduated-employable-survey-says/article68432324.ece" 
-                target="_blank" 
+              {
+                "In India, too many young people finish school without the skills, confidence, or opportunities to build the lives they dream of."
+              }
+              <a
+                href="https://www.thehindu.com/business/budget/economic-survey-2023-24-only-51-percent-indian-graduated-employable-survey-says/article68432324.ece"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline hover:cursor-pointer font-bold"
-              > More than 50% of college graduates are considered unemployable.
+              >
+                {" "}
+                More than 50% of college graduates are considered unemployable.
               </a>{" "}
               {` Majority of the Schools continue to focus narrowly on academics and exams, while neglecting life-readiness. Sometimes these schools don't have resources and awareness to bring this kind of holistic education.`}
               <strong>This is where we come in.</strong>
             </p>
           </div>
 
-          <div className="relative w-full md:flex-1 flex justify-center items-center min-h-[300px]">
+          {/* <div className="relative w-full md:flex-1 flex justify-center items-center min-h-[300px]">
             <Image
-              src="/claylab assets/general/circleGraphics.png"
+              src="/claylab assets/home/home-page-01.png"
               alt="abstract shape"
-              width={700}
-              height={240}
-              className=" w-[600px] h-auto object-contain hover:rotate-12 "
+              width={200}
+              height={100}
+              className="  h-auto object-contain hover:rotate-12 "
             />
             
+            <Image
+              src="/claylab assets/home/home-page-02.png"
+              alt="abstract shape"
+              width={200}
+              height={100}
+              className="mt-36 h-auto object-contain hover:rotate-90"
+            />
+
+            <div className="absolute mt-28 transform -translate-y-1/2 z-10">
+              <p className="text-center text-lg sm:text-xl md:text-2xl text-gray-900 whitespace-nowrap">
+                {`"5,000+ students supported`}
+                <br />
+                {`over the past 5 years"`}
+              </p>
+            </div>
+          </div> */}
+          <div className="relative w-full md:flex-1 flex justify-center items-center min-h-[300px] group">
+            <Image
+              src="/claylab assets/home/home-page-01.png"
+              alt="abstract shape"
+              width={300}
+              height={100}
+              className="h-auto object-contain transition-transform duration-500 group-hover:animate-spin"
+            />
+
+            <Image
+              src="/claylab assets/home/home-page-02.png"
+              alt="abstract shape"
+              width={300}
+              height={100}
+              className="mt-36 h-auto object-contain transition-transform duration-500 group-hover:animate-spin group-hover:animation-delay-150"
+            />
+
             <div className="absolute mt-28 transform -translate-y-1/2 z-10">
               <p className="text-center text-lg sm:text-xl md:text-2xl text-gray-900 whitespace-nowrap">
                 {`"5,000+ students supported`}
@@ -329,29 +350,37 @@ const WhyWeExist = () => {
           <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-green-700 mb-6">
             At Claylab, we exist to change this.
           </h3>
-          
+
           <div className="space-y-6">
-            <h4 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">Our Vision:</h4>
-            
+            <h4 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">
+              Our Vision:
+            </h4>
+
             <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-16">
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                  We want every school in India to provide <strong>holistic education</strong> that goes beyond textbooks — focusing on life skills, leadership, and future readiness.
+                  We want every school in India to provide{" "}
+                  <strong>holistic education</strong> that goes beyond textbooks
+                  — focusing on life skills, leadership, and future readiness.
                 </p>
               </div>
-              
+
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                  We want at least <strong>75% of our students</strong> to graduate as employable, confident young adults, prepared for both livelihoods and leadership.
+                  We want at least <strong>75% of our students</strong> to
+                  graduate as employable, confident young adults, prepared for
+                  both livelihoods and leadership.
                 </p>
               </div>
-              
+
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                  We want schools to become <strong>agents of change</strong> in their communities — driving sustainability, citizenship, and social transformation, not just academic results.
+                  We want schools to become <strong>agents of change</strong> in
+                  their communities — driving sustainability, citizenship, and
+                  social transformation, not just academic results.
                 </p>
               </div>
             </div>
