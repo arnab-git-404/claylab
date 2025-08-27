@@ -115,25 +115,23 @@ const PillarsOfApproach = () => {
         We prepare students for the future through four interconnected pillars :
       </h1>
 
+      <div className="mt-10 grid gap-4 sm:gap-6 md:gap-8 lg:gap-16 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+        {pillars.map((pillar, index) => (
+          <div
+            key={index}
+            className="relative h-[180px] sm:h-[250px] md:h-[320px] lg:h-[400px] rounded-lg overflow-hidden group shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer"
+          >
+            {/* Background Image */}
+            <Image
+              src={pillar.image}
+              alt={pillar.title}
+              width={800}
+              height={400}
+              className="w-full h-full object-cover"
+            />
 
-<div className="mt-10 grid gap-4 sm:gap-6 md:gap-8 lg:gap-16 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-  {pillars.map((pillar, index) => (
-    <div
-      key={index}
-      className="relative h-[180px] sm:h-[250px] md:h-[320px] lg:h-[400px] rounded-lg overflow-hidden group shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer"
-    >
-      {/* Background Image */}
-      <Image
-        src={pillar.image}
-        alt={pillar.title}
-        width={800}
-        height={400}
-        className="w-full h-full object-cover"
-      />
-
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/50 sm:bg-black/60"></div>
-      
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-black/50 sm:bg-black/60"></div>
 
             <div className="absolute inset-0">
               {/* Title */}
