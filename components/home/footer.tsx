@@ -91,7 +91,7 @@ const Footer = () => {
             href="mailto:claylableducation@gmail.com"
             className="text-xl underline break-all"
           >
-            claylableducation@gmail.com
+            . . . . . . . @gmail.com 
           </a>
         </div>
 
