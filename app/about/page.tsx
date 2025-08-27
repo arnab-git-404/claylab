@@ -17,8 +17,8 @@ export default function Home() {
       <Hero />
       {/* <Claylab /> */}
       <WhoWeAre />
-      <OurJourney />
       <WhereWeWork />
+      <OurJourney />
       <OurTeam />
       <ReportsSection />
       {/* <StatutoryInfo /> */}
