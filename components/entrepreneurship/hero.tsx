@@ -27,13 +27,10 @@ const ImageData = [
   },
 ];
 
-
-
 export default function Hero() {
   return (
     // <section className="relative w-full h-[80vh] sm:h-screen flex flex-col items-center overflow-hidden">
-      <section className="relative w-full h-[80vh] sm:h-screen flex flex-col items-center overflow-hidden">
-
+    <section className="relative w-full h-[80vh] sm:h-screen flex flex-col items-center overflow-hidden">
       <Image
         src="/claylab assets/general/HeroSectionImages/entrepreneurshipHero.png"
         alt="Background"
@@ -46,7 +43,6 @@ export default function Hero() {
       {/* <div className="flex flex-col gap-6 sm:gap-8 m-auto w-full px-4 sm:px-8 md:px-0"> */}
 
       <div className="flex flex-col gap-6 sm:gap-8 m-auto w-full px-4 sm:px-8 md:px-0">
-
         <div className="flex flex-col gap-4 mx-0 sm:mx-8 md:mx-14 mt-20 sm:mt-16 text-start max-w-full sm:max-w-4xl z-10">
           <p
             style={{ fontWeight: "100" }}
@@ -66,7 +62,6 @@ export default function Hero() {
             Join us
           </Button>
         </div>
-
 
         {/* <div className="flex flex-col gap-4 text-center max-w-screen z-10 mt-8">
           <p className="text-center text-base sm:text-xl md:text-2xl font-sourceSans font-thin w-full text-white ">
@@ -91,7 +86,7 @@ export default function Hero() {
           </div>{" "}
         </div> */}
 
-<div className="flex flex-col gap-4 text-center max-w-screen z-10 mt-8">
+        {/* <div className="flex flex-col gap-4 text-center max-w-screen z-10 mt-8">
           <p className="text-center text-base sm:text-xl md:text-2xl font-sourceSans font-thin w-full text-white ">
             Our Partners
           </p>
@@ -99,7 +94,7 @@ export default function Hero() {
           <div className="overflow-hidden px-4">
             <div className="flex animate-scroll">
               {/* First set of images */}
-              {ImageData.map((data, index) => (
+              {/* {ImageData.map((data, index) => (
                 <Image
                   className="h-16 !w-auto mx-8 flex-shrink-0"
                   key={`${data.imgUrl}-${index}`}
@@ -108,9 +103,9 @@ export default function Hero() {
                   width={80}
                   alt="partner logo"
                 />
-              ))}
+              ))} */}
               {/* Duplicate set for seamless loop */}
-              {ImageData.map((data, index) => (
+              {/* {ImageData.map((data, index) => (
                 <Image
                   className="h-16 !w-auto mx-8 flex-shrink-0"
                   key={`${data.imgUrl}-duplicate-${index}`}
@@ -122,9 +117,10 @@ export default function Hero() {
               ))}
             </div>
           </div>
-        </div>
+        </div>   */}
 
 
+        
       </div>
     </section>
   );
