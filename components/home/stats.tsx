@@ -110,15 +110,15 @@ import React, { useEffect, useRef, useState } from "react";
 const stats = [
   {
     number: 5000,
-    label: "Students supported in Last 5 year",
+    label: "Students supported in Last Five years",
   },
   {
     number: 3000,
-    label: "Volunteers engaged till now",
+    label: "Volunteers actively engaged till now",
   },
   {
     number: 20,
-    label: "Schools partnered with us",
+    label: "Schools currently partnered with us for impact",
   },
   // {
   //   number: "100+",
