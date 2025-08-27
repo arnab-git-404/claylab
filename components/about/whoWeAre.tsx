@@ -16,13 +16,13 @@ const WhoWeAre = () => {
         <div className="space-y-8">
           
           {/* Opening Statement */}
-          <p className="text-xl sm:text-2xl md:text-3xl text-gray-800 leading-relaxed font-light">
+          <p className="text-xl sm:text-2xl md:text-2xl text-gray-800 leading-relaxed font-light">
             At Claylab, we are not just teachers or facilitators — we are co-travellers with our students.
           </p>
 
           {/* ECO Section */}
           <div className="space-y-6">
-            <p className="text-xl sm:text-2xl md:text-3xl text-gray-800 leading-relaxed">
+            <p className="text-xl sm:text-2xl md:text-2xl text-gray-800 leading-relaxed">
               We believe in <strong className="font-bold">ECO</strong>
             </p>
 
@@ -52,7 +52,7 @@ const WhoWeAre = () => {
           </div>
 
           {/* Closing Statement */}
-          <p className="text-xl sm:text-2xl md:text-3xl text-gray-800 leading-relaxed font-light">
+          <p className="text-xl sm:text-2xl md:text-2xl text-gray-800 leading-relaxed font-light">
             We see ourselves as sparks — igniting curiosity, agency, and ambition in every teenager we meet.
           </p>
 
