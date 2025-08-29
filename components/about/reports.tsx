@@ -232,11 +232,11 @@ import Heading from "../heading";
 export default function ReportsSection() {
   const reports = [
     {
-      title: "Impact Assessment 2024-25",
+      title: "Annual Report 2024-25",
       description: "Coming Soon . . .",
       link: "",
       year: "2024-25",
-      type: "impact",
+      type: "Report",
     },
     {
       title: "Annual Report 2023-24",
@@ -244,22 +244,22 @@ export default function ReportsSection() {
         "A comprehensive overview of our activities and achievements in 2023-24.",
       link: "https://drive.google.com/file/d/1nVU4GJMA8aXNdfCBJvxtrIIwbLYQcZ4u/view?usp=drive_link",
       year: "2023-24",
-      type: "annual",
+      type: "Report",
     },
     {
-      title: "Financial Statement Q4 2022-23 (test)",
+      title: "Annual Report 2022-23",
       description:
         "Our financial performance for the fourth quarter of 2022-23.",
       link: "https://drive.google.com/file/d/10i5fZkw62ShsChlrJoPGbJCPYKuCTcN0/view?usp=drive_link",
       year: "2022-23",
-      type: "financial",
+      type: "Report",
     },
     {
-      title: "Impact Assessment 2021-22",
+      title: "Annual Report 2021-22",
       description: "An analysis of the impact of our programs in 2021-22.",
       link: "https://drive.google.com/file/d/1iMW3eXGSjYmp8yKzPnzftoTCOgQ_Mrtb/view?usp=drive_link",
       year: "2021-22",
-      type: "impact",
+      type: "Report",
     },
     {
       title: "Annual Report 2020-21",
@@ -267,7 +267,7 @@ export default function ReportsSection() {
         "A comprehensive overview of our activities and achievements in 2020-21.",
       link: "https://drive.google.com/file/d/1xxiHSrDqDPrzN2kMP0JQnovcvVrQ9fmU/view?usp=drive_link",
       year: "2020-21",
-      type: "annual",
+      type: "Report",
     },
     {
       title: "Registration Documents",
