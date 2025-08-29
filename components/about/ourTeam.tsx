@@ -236,34 +236,3 @@ export default function OurTeam() {
 //         <div className="text-center mb-16">
 //           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
 //             Meet Our{" "}
-//             <span className="text-green-600 relative">
-//               Team
-//               <div className="absolute -bottom-2 left-0 right-0 h-1 bg-green-600 rounded-full" />
-//             </span>
-//           </h2>
-//           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-//             Passionate professionals dedicated to driving innovation and excellence in everything we do.
-//           </p>
-//         </div>
-
-//         {/* Team Grid */}
-//         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-//           {getCurrentTeamMembers().map((member) => (
-//             <TeamMemberCard key={member.name} member={member} />
-//           ))}
-//         </div>
-
-//         {/* Pagination Controls */}
-//         {totalPages > 1 && (
-//           <div className="flex items-center justify-center gap-4">
-//             <button
-//               onClick={prevPage}
-//               className="p-2 rounded-full bg-white shadow-md hover:shadow-lg border border-gray-200 hover:border-green-300 transition-all duration-300 disabled:opacity-50"
-//               disabled={currentPage === 0}
-//             >
-//               <ChevronLeft size={20} className="text-gray-600" />
-//             </button>
-            
-//             <div className="flex gap-2">
-//               {Array.from({ length: totalPages }, (_, i) => (
-//      
