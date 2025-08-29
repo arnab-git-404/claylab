@@ -359,7 +359,6 @@ function TeamMemberRow({
   index,
   activeIndex,
   setActiveIndex,
-  manualOverride,
   setManualOverride
 }: TeamMemberRowProps) {
   const [imageError, setImageError] = useState(false);
