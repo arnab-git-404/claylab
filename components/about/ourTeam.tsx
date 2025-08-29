@@ -175,32 +175,3 @@ export default function OurTeam() {
 //     <div className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100">
 //       {/* Card Content */}
 //       <div className="p-6">
-//         {/* Profile Image */}
-//         <div className="relative w-24 h-24 mx-auto mb-4">
-//           <Image
-//             src={member.image}
-//             alt={member.name}
-//             fill
-//             className="rounded-full object-cover ring-4 ring-green-100 group-hover:ring-green-200 transition-all duration-300"
-//           />
-//           {/* LinkedIn Badge */}
-//           <a
-//             href={member.linkedin}
-//             target="_blank"
-//             rel="noopener noreferrer"
-//             className="absolute -bottom-1 -right-1 bg-blue-600 hover:bg-blue-700 text-white p-2 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110"
-//           >
-//             <LinkedinIcon size={16} />
-//           </a>
-//         </div>
-        
-//         {/* Member Info */}
-//         <div className="text-center">
-//           <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-green-600 transition-colors duration-300">
-//             {member.name}
-//           </h3>
-//           <p className="text-gray-600 text-sm leading-relaxed">
-//             {member.role}
-//           </p>
-//         </div>
-//       </div>
