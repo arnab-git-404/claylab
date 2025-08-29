@@ -266,15 +266,4 @@ export default function OurTeam() {
             
 //             <div className="flex gap-2">
 //               {Array.from({ length: totalPages }, (_, i) => (
-//                 <button
-//                   key={i}
-//                   onClick={() => setCurrentPage(i)}
-//                   className={`w-3 h-3 rounded-full transition-all duration-300 ${
-//                     i === currentPage
-//                       ? "bg-green-600 shadow-lg"
-//                       : "bg-gray-300 hover:bg-gray-400"
-//                   }`}
-//                 />
-//               ))}
-//             </div>
-            
+//      
