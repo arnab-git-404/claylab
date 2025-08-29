@@ -204,19 +204,3 @@ export default function OurTeam() {
 //           </p>
 //         </div>
 //       </div>
-      
-//       {/* Hover Effect Overlay */}
-//       <div className="absolute inset-0 bg-gradient-to-t from-green-600/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
-//     </div>
-//   );
-// };
-
-// export default function OurTeam() {
-//   const [currentPage, setCurrentPage] = useState(0);
-//   const itemsPerPage = 4;
-//   const totalPages = Math.ceil(team.length / itemsPerPage);
-  
-//   const getCurrentTeamMembers = () => {
-//     const start = currentPage * itemsPerPage;
-//     return team.slice(start, start + itemsPerPage);
-//   };
