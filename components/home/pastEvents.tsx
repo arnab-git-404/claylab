@@ -282,7 +282,7 @@ const PastEvents = () => {
                   />
                   {/* Caption overlay */}
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                    <h3 className="text-white font-semibold text-lg">{image.caption}</h3>
+                    <h3 className="text-white font-semibold text-2xl">{image.caption}</h3>
                   </div>
                 </div>
               );
