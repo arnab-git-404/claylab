@@ -71,13 +71,13 @@ const team: TeamMember[] = [
   {
     name: "Brototy Mishra",
     role: "Co-founder, Advisory Board Member",
-    image: "/claylab assets/aboutUs/team/Brototy Mishra.jfif",
+    image: "/claylab assets/aboutUs/team/Brototy Mishra.jpg",
     linkedin: "https://www.linkedin.com/in/brototy-mishra"
   },
   {
     name: "Aarti Singh",
     role: "Senior Program Manager",
-    image: "/claylab assets/aboutUs/team/Aarti Singh.jfif",
+    image: "/claylab assets/aboutUs/team/Aarti Singh.jpg",
     linkedin: "https://www.linkedin.com/in/aarti-singh"
   },
   {
@@ -95,13 +95,13 @@ const team: TeamMember[] = [
   {
     name: "Muskan Shaikh",
     role: "Program Associate, Outreach & School Relations",
-    image: "/claylab assets/aboutUs/team/Muskan Shaikh.jfif",
+    image: "/claylab assets/aboutUs/team/Muskan Shaikh.jpg",
     linkedin: "https://www.linkedin.com/in/muskan-shaikh-b0a2b3282"
   },
   {
     name: "Vishakha Jain",
     role: "Student Entrepreneurship Coach",
-    image: "/claylab assets/aboutUs/team/Vishakha Jain.jfif",
+    image: "/claylab assets/aboutUs/team/Vishakha Jain.jpg",
     linkedin: "https://www.linkedin.com/in/vishakha-nitin-jain"
   }
 ];
