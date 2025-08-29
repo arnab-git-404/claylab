@@ -101,7 +101,7 @@ const pillars = [
     title: "Learn by Doing",
     description:
       "Students don’t just learn — they practice. From running community projects to pitching ideas, they see their learning come alive.",
-    image: "/claylab assets/home/pillarsOfApproach/fourthPillarsOfApproach.png",
+    image: "/claylab assets/home/pillarsOfApproach/Learn by Doing.png",
   },
 ];
 
