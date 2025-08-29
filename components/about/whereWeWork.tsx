@@ -51,7 +51,7 @@ const WhereWeWork = () => {
                 We currently partner with schools in{" "}
                 <strong className="font-semibold">Maharashtra</strong> (Mumbai,
                 Pune) and <strong className="font-semibold">Uttarakhand</strong>{" "}
-                (Udham Singh nagar district, Nainital and Chamawat),{" "}
+                (Udham Singh nagar district, Nainital and Champawat ),{" "}
                 <strong className="font-semibold">Delhi</strong> and{" "}
                 <strong className="font-semibold">Haryana</strong> (Sonepat) Each
                 partnership is a step towards our vision of schools becoming hubs
