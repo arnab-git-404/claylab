@@ -469,6 +469,8 @@ function TeamMemberRow({
   );
 }
 
+
+
 export default function OurTeam() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [manualOverride, setManualOverride] = useState(false);
