@@ -415,9 +415,9 @@ export default function ReportsSection() {
 
             {/* Document Icon */}
             <div className="flex justify-center mb-6">
-              <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gray-100 rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 sm:w-20 sm:h-20 bg-gray-100 rounded-lg flex items-center justify-center">
                 <svg
-                  className="w-8 h-8 sm:w-10 sm:h-10 text-gray-600"
+                  className="w-8 h-2 sm:w-10 sm:h-10 text-gray-600"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -439,7 +439,7 @@ export default function ReportsSection() {
 
             {/* Report Description */}
             <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-6 line-clamp-3">
-              {report.description}
+              {/* {report.description} */}
             </p>
 
             {/* Action Button/Status */}
