@@ -369,8 +369,8 @@ const WhyWeExist = () => {
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                  We want at least <strong>75% of our students</strong> to
-                  graduate as employable, confident young adults, prepared for
+                  We want at least <strong>75% of our students to
+                  graduate as employable, confident young adults,</strong> prepared for
                   both livelihoods and leadership.
                 </p>
               </div>
@@ -378,8 +378,8 @@ const WhyWeExist = () => {
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                  We want schools to become <strong>agents of change</strong> in
-                  their communities — driving sustainability, citizenship, and
+                  We want schools to become <strong>agents of change in
+                  their communities</strong> — driving sustainability, citizenship, and
                   social transformation, not just academic results.
                 </p>
               </div>
