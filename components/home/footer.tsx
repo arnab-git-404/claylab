@@ -67,7 +67,7 @@
 
 
 
-
+'use client'
 
 import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6";
 import Image from "next/image";
