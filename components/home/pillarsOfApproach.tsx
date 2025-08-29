@@ -95,7 +95,7 @@ const pillars = [
     title: "Social Capital",
     description:
       "Connecting students with mentors, networks, and opportunities that expand horizons and open doors.",
-    image: "/claylab assets/home/pillarsOfApproach/thirdPillarsOfApproach.HEIC",
+    image: "/claylab assets/home/pillarsOfApproach/Social Capital.jpg",
   },
   {
     title: "Learn by Doing",
