@@ -87,14 +87,13 @@
 
 // export default MeetMentors;
 
-
-
 "use client";
 
 // import Image from "next/image";
 import Heading from "../heading";
-import { Users, Globe, Clock } from "lucide-react";
+import { Users, Globe, Clock, ExternalLink } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const mentorHighlights = [
   {
@@ -159,15 +158,51 @@ const MeetMentors = () => {
                   <div className="bg-green-600 rounded-full p-2">
                     <Users className="w-5 h-5 text-white" />
                   </div>
+
                   <h4 className="text-xl font-semibold text-gray-900">
                     Community Impact
                   </h4>
                 </div>
+
                 <p className="text-gray-700 leading-relaxed">
                   Our diverse mentor network spans across industries, bringing
                   real-world expertise and genuine care to create meaningful
                   learning experiences for every student.
                 </p>
+                
+                {/* Clickable Points */}
+                <div className="space-y-4 mt-4">
+                  <a
+                    href="https://padlet.com/claylabeducation/mentorcommunity"
+                    className="flex items-center gap-3 p-4 bg-white rounded-lg hover:bg-green-50 transition-all duration-200 group border border-green-200 hover:border-green-300"
+                  >
+                    <div className="flex-shrink-0 bg-green-100 rounded-full p-2 group-hover:bg-green-200 transition-colors">
+                      <Users className="w-4 h-4 text-green-600" />
+                    </div>
+                    <div className="flex-1">
+                      <span className="text-gray-800 font-medium group-hover:text-green-700 transition-colors">
+                        Mentorship Community
+                      </span>
+                    </div>
+                    <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-green-600 transition-colors" />
+                  </a>
+
+                  <a
+                    href="https://padlet.com/claylabeducation/mentorship-highlights-ecwn0fsmq7a2le7w"
+                    className="flex items-center gap-3 p-4 bg-white rounded-lg hover:bg-green-50 transition-all duration-200 group border border-green-200 hover:border-green-300"
+                  >
+                    <div className="flex-shrink-0 bg-blue-100 rounded-full p-2 group-hover:bg-blue-200 transition-colors">
+                      <Globe className="w-4 h-4 text-blue-600" />
+                    </div>
+                    <div className="flex-1">
+                      <span className="text-gray-800 font-medium group-hover:text-blue-700 transition-colors">
+                        Mentorship Highlights
+                      </span>
+                    </div>
+                    <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-blue-600 transition-colors" />
+                  </a>
+                </div>
+
               </div>
             </div>
           </div>
