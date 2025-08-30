@@ -1,11 +1,8 @@
-
-
 // 'use client'
 // import { Mail } from "lucide-react";
 // import { useState } from "react";
 // import { toast } from "react-hot-toast";
 // import Link from "next/link";
-
 
 // const JoinMovement = () => {
 //   const [showForm, setShowForm] = useState(false);
@@ -37,7 +34,7 @@
 //     if (!formData.name || !formData.email || !formData.thoughts) {
 //       return toast.error('Please fill in all fields.');
 //     }
-    
+
 //     // Clear all form fields
 //     setFormData({
 //       name: "",
@@ -83,7 +80,7 @@
 //         ) : (
 //           // Show only Apply Mentorship button when form is visible
 //           <div className="flex gap-4 mb-8">
-            
+
 //             <button
 //               className="bg-green-700 text-white px-[32px] py-[16px] rounded-full text-base cursor-default"
 //             >
@@ -119,7 +116,7 @@
 //               className="bg-transparent border-b border-green-600 focus:outline-none focus:border-green-800 text-sm py-2 placeholder:text-green-800 resize-none"
 //               rows={2}
 //             />
-              
+
 //             <button
 //               type="submit"
 //               className="px-[32px] py-[16px] rounded-full text-base  mt-4 bg-[#2f5e37] text-white hover:bg-[#264e2f] transition-all"
@@ -136,7 +133,7 @@
 
 //           </form>
 //         )}
-        
+
 //       </div>
 //     </section>
 //   );
@@ -144,10 +141,7 @@
 
 // export default JoinMovement;
 
-
-
-
-'use client'
+"use client";
 import { Mail } from "lucide-react";
 import { useState } from "react";
 import { toast } from "react-hot-toast";
@@ -158,7 +152,7 @@ const JoinMovement = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    thoughts: ""
+    thoughts: "",
   });
 
   const handleApplyMentorship = () => {
@@ -171,17 +165,22 @@ const JoinMovement = () => {
 
   const handlePartnerClick = () => {
     const subject = "Partnership Inquiry - ClayLab Education";
-    const body = "Hello ClayLab Team,\n\nI am interested in exploring partnership opportunities with ClayLab Education.\n\nPlease let me know how we can collaborate.\n\nBest regards,";
-    const mailtoLink = `mailto:contact@claylab.education?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    
+    const body =
+      "Hello ClayLab Team,\n\nI am interested in exploring partnership opportunities with ClayLab Education.\n\nPlease let me know how we can collaborate.\n\nBest regards,";
+    const mailtoLink = `mailto:contact@claylab.education?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`;
+
     window.location.href = mailtoLink;
   };
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
 
@@ -189,16 +188,16 @@ const JoinMovement = () => {
     e.preventDefault();
 
     if (!formData.name || !formData.email || !formData.thoughts) {
-      return toast.error('Please fill in all fields.');
+      return toast.error("Please fill in all fields.");
     }
-    
+
     // Clear all form fields
     setFormData({
       name: "",
       email: "",
-      thoughts: ""
+      thoughts: "",
     });
-    toast.success('Form Submitted Successfully !');
+    toast.success("Form Submitted Successfully !");
   };
 
   return (
@@ -219,28 +218,26 @@ const JoinMovement = () => {
             >
               Want to Be a Partner
             </button>
-            <button
-              onClick={handleApplyMentorship}
-              className="bg-green-700 hover:bg-green-800 text-white px-[32px] py-[16px] rounded-full text-base transition w-full sm:w-auto"
-            >
-              Apply Mentorship
+            <button className="bg-green-700 hover:bg-green-800 text-white px-[32px] py-[16px] rounded-full text-base transition w-full sm:w-auto">
+              <a
+                href="https://linktr.ee/claylabeducation"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Apply Mentorship
+              </a>
             </button>
             <button
               onClick={handleOtherButtons}
               className="bg-green-700 hover:bg-green-800 text-white px-[32px] py-[16px] rounded-full text-base transition w-full sm:w-auto"
             >
-              <Link href="/support">
-                Donate To Support Us
-              </Link>
+              <Link href="/support">Donate To Support Us</Link>
             </button>
           </div>
         ) : (
           // Show only Apply Mentorship button when form is visible
           <div className="flex gap-4 mb-8">
-            
-            <button
-              className="bg-green-700 text-white px-[32px] py-[16px] rounded-full text-base cursor-default"
-            >
+            <button className="bg-green-700 text-white px-[32px] py-[16px] rounded-full text-base cursor-default">
               Apply Mentorship
             </button>
           </div>
@@ -248,7 +245,10 @@ const JoinMovement = () => {
 
         {/* Form - only visible when Apply Mentorship is clicked */}
         {showForm && (
-          <form onSubmit={formSubmit} className="w-full md:w-2/5 flex flex-col gap-6">
+          <form
+            onSubmit={formSubmit}
+            className="w-full md:w-2/5 flex flex-col gap-6"
+          >
             <input
               type="text"
               name="name"
@@ -273,7 +273,7 @@ const JoinMovement = () => {
               className="bg-transparent border-b border-green-600 focus:outline-none focus:border-green-800 text-sm py-2 placeholder:text-green-800 resize-none"
               rows={2}
             />
-              
+
             <button
               type="submit"
               className="px-[32px] py-[16px] rounded-full text-base  mt-4 bg-[#2f5e37] text-white hover:bg-[#264e2f] transition-all"
@@ -287,10 +287,8 @@ const JoinMovement = () => {
             >
               Back
             </button>
-
           </form>
         )}
-        
       </div>
     </section>
   );
