@@ -107,7 +107,14 @@ export default function MentorshipForm() {
             focus:ring-4 focus:ring-green-300 focus:ring-opacity-50 active:scale-95 cursor-pointer rounded-full shadow-2xl hover:shadow-green-500/30 border border-green-600 hover:border-green-500"
             
             >
+              <a
+                href="https://linktr.ee/claylabeducation"
+                target="_blank"
+                rel="noopener noreferrer"
+
+              >
               Apply now
+              </a>
             </button>
 
             <Image
