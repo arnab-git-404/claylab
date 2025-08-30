@@ -304,7 +304,7 @@ const team: TeamMember[] = [
   {
     name: "Purva Parwani",
     role: "COO / Co-founder",
-    image: "/claylab assets/aboutUs/team/Purva Parwani.jfif",
+    image: "/claylab assets/aboutUs/team/Purva Parwani.jpg",
     linkedin: "https://www.linkedin.com/in/purvaparwani"
   },
   {
