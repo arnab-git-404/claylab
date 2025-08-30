@@ -147,7 +147,7 @@
 
 'use client'
 
-import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { FaInstagram,FaLinkedinIn  } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link"
 
@@ -223,33 +223,27 @@ const Footer = () => {
 
       {/* Social Icons - responsive layout */}
       <div className="flex flex-row sm:flex-row justify-center lg:justify-end items-center gap-3 sm:gap-4 mt-6 w-full">
+        
         <a
-          href="https://twitter.com/claylablearning"
+          href="https://www.instagram.com/claylab.education/"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 text-xs sm:text-sm px-3 sm:px-4 py-2 border border-black rounded-full hover:bg-black hover:text-white transition-all duration-200 w-full sm:w-auto max-w-[200px] sm:max-w-none"
-        >
-          <FaXTwitter className="text-base" /> 
-          <span>Twitter</span>
-        </a>
-        <a
-          href="https://instagram.com/claylablearning"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 text-xs sm:text-sm px-3 sm:px-4 py-2 border border-black rounded-full hover:bg-black hover:text-white transition-all duration-200 w-full sm:w-auto max-w-[200px] sm:max-w-none"
+          className="flex items-center justify-center gap-2 text-xs sm:text-sm px-3 sm:px-4 py-2 border border-black rounded-full hover:bg-[#E1306C] hover:text-white transition-all duration-200 w-full sm:w-auto max-w-[200px] sm:max-w-none"
         >
           <FaInstagram className="text-base" /> 
           <span>Instagram</span>
         </a>
+
         <a
-          href="https://facebook.com/claylablearning"
+          href="https://www.linkedin.com/company/claylabeducationfoundation"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 text-xs sm:text-sm px-3 sm:px-4 py-2 border border-black rounded-full hover:bg-black hover:text-white transition-all duration-200 w-full sm:w-auto max-w-[200px] sm:max-w-none"
+          className="flex items-center justify-center gap-2 text-xs sm:text-sm px-3 sm:px-4 py-2 border border-black rounded-full hover:bg-[#0077b5] hover:text-white transition-all duration-200 w-full sm:w-auto max-w-[200px] sm:max-w-none"
         >
-          <FaFacebookF className="text-base" /> 
-          <span>Facebook</span>
+          <FaLinkedinIn className="text-base" /> 
+          <span>LinkedIn</span>
         </a>
+
       </div>
     </footer>
   );
