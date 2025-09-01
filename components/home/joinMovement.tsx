@@ -155,9 +155,9 @@ const JoinMovement = () => {
     thoughts: "",
   });
 
-  const handleApplyMentorship = () => {
-    setShowForm(true);
-  };
+  // const handleApplyMentorship = () => {
+  //   setShowForm(true);
+  // };
 
   const handleOtherButtons = () => {
     setShowForm(false);
