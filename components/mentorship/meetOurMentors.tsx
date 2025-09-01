@@ -93,7 +93,8 @@
 import Heading from "../heading";
 import { Users, Globe, Clock, ExternalLink } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
+
+// import Link from "next/link";
 
 const mentorHighlights = [
   {
