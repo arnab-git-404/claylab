@@ -292,7 +292,7 @@ const team: TeamMember[] = [
   {
     name: "Vivek Kaushik",
     role: "CEO / Co-founder / Director",
-    image: "/claylab assets/aboutUs/team/Vivek Kaushik.jpg",
+    image: "/claylab assets/aboutUs/team/Vivek Kaushik-01.jpg",
     linkedin: "https://www.linkedin.com/in/viveksrkaushik"
   },
   {
@@ -304,7 +304,7 @@ const team: TeamMember[] = [
   {
     name: "Purva Parwani",
     role: "COO / Co-founder",
-    image: "/claylab assets/aboutUs/team/Purva Parwani.jpg",
+    image: "/claylab assets/aboutUs/team/Purva Parwani-01.jpg",
     linkedin: "https://www.linkedin.com/in/purvaparwani"
   },
   {
@@ -316,13 +316,13 @@ const team: TeamMember[] = [
   {
     name: "Aarti Singh",
     role: "Senior Program Manager",
-    image: "/claylab assets/aboutUs/team/Aarti Singh.jpg",
+    image: "/claylab assets/aboutUs/team/Aarti Singh-01.jpg",
     linkedin: "https://www.linkedin.com/in/aarti-singh-8a6811153/"
   },
   {
     name: "Tabassum Shaikh",
     role: "Program Manager - Curriculum and Learning",
-    image: "/claylab assets/aboutUs/team/Tabassum Shaikh.jpg",
+    image: "/claylab assets/aboutUs/team/Tabassum Shaikh-01.jpg",
     linkedin: "https://www.linkedin.com/in/tabassumshaikh88"
   },
   {
@@ -334,7 +334,7 @@ const team: TeamMember[] = [
   {
     name: "Muskan Shaikh",
     role: "Program Associate, Outreach & School Relations",
-    image: "/claylab assets/aboutUs/team/Muskan Shaikh.jpg",
+    image: "/claylab assets/aboutUs/team/Muskan Shaikh-01.jpg",
     linkedin: "https://www.linkedin.com/in/muskan-shaikh-b0a2b3282"
   },
   {
