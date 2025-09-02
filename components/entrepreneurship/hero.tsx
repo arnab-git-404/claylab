@@ -1,31 +1,8 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
-// const ImageData = [
-//   {
-//     imgUrl: "/claylab assets/entrepreneurshipProgram/ourPartners/image 24.png",
-//   },
-//   {
-//     imgUrl: "/claylab assets/entrepreneurshipProgram/ourPartners/image 25.png",
-//   },
-//   {
-//     imgUrl: "/claylab assets/entrepreneurshipProgram/ourPartners/image 26.png",
-//   },
-//   {
-//     imgUrl: "/claylab assets/entrepreneurshipProgram/ourPartners/image 27.png",
-//   },
-//   {
-//     imgUrl: "/claylab assets/entrepreneurshipProgram/ourPartners/image 28.png",
-//   },
-//   {
-//     imgUrl: "/claylab assets/entrepreneurshipProgram/ourPartners/image 29.png",
-//   },
-//   {
-//     imgUrl: "/claylab assets/entrepreneurshipProgram/ourPartners/image 30.png",
-//   },
-// ];
+// import { Button } from "@/components/ui/button";
 
 export default function Hero() {
   return (
