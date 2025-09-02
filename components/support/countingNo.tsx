@@ -5,24 +5,16 @@ import React, { useEffect, useRef, useState } from "react";
 const stats = [
   {
     number: 5000,
-    label: "Students supported in Last 5 year",
+    label: "Students supported in Last Five years",
   },
   {
     number: 3000,
-    label: "Volunteers engaged",
+    label: "Volunteers actively engaged",
   },
   {
     number: 20,
-    label: "Schools partnered",
+    label: "Schools currently partnered",
   },
-  // {
-  //   number: "100+",
-  //   label: "Mentors engaged",
-  // },
-  // {
-  //   number: "1000+",
-  //   label: `children helping everyday`,
-  // },
 ];
 
 const CountUpNumber = ({
