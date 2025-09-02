@@ -196,10 +196,10 @@ const Footer = () => {
               Mentorship
             </Link>
             <Link 
-              href="/entrepreneurship" 
+              href="/school-of-entrepreneurship" 
               className="hover:underline hover:text-green-700 transition-colors text-sm sm:text-base whitespace-nowrap"
             >
-              Entrepreneurship
+              School of Entrepreneurship
             </Link>
             <Link 
               href="/support" 
