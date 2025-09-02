@@ -176,7 +176,7 @@ export default function Navbar() {
     { title: "Home", href: "/" },
     { title: "About Us", href: "/about" },
     { title: "Mentorship", href: "/mentorship" },
-    { title: "Entrepreneurship", href: "/entrepreneurship" },
+    { title: "School of Entrepreneurship", href: "/school-of-entrepreneurship" },
     { title: "Support Us", href: "/support" },
   ];
 
