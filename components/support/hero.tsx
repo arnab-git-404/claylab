@@ -99,7 +99,7 @@ export default function Hero() {
           onClick={() => window.open(donateUrl, "_blank")}
           className="px-8 sm:px-12 py-2 w-full sm:w-min whitespace-nowrap text-white font-medium rounded-full border border-white bg-gradient-to-r from-green-800 to-green-400 shadow-md hover:shadow-lg transition-all text-base sm:text-lg"
         >
-          Donate
+          Support Claylab Today
         </button>
       </div>
     </section>
