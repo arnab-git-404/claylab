@@ -323,74 +323,11 @@ export default function ReportsSection() {
 
       {/* Reports Flex Container */}
       <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mb-8 sm:mb-10 mx-auto">
-        {/* OLD Format Report Cards   */}
-        {/* {reports.map((report, index) => (
-          <div 
-            key={index} 
-            className={`bg-white border border-gray-200 rounded-lg p-4 sm:p-6 shadow-sm hover:shadow-md transition-all duration-300 w-full sm:w-72 lg:w-80 ${
-              report.link ? 'cursor-pointer hover:border-green-300' : 'opacity-75'
-            }`}
-            onClick={() => handleReportClick(report.link)}
-          >
-            
-            <div className="flex justify-between items-start mb-3">
-              <span className={`px-2 py-1 rounded-full text-xs font-medium capitalize ${getTypeColor(report.type)}`}>
-                {report.type}
-              </span>
-              {report.year && (
-                <span className="text-xs text-gray-500 font-medium">
-                  {report.year}
-                </span>
-              )}
-            </div>
-            
-            
-            <div className="flex justify-center mb-4">
-              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gray-100 rounded-lg flex items-center justify-center">
-                <svg 
-                  className="w-6 h-6 sm:w-8 sm:h-8 text-gray-600" 
-                  fill="none" 
-                  stroke="currentColor" 
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                </svg>
-              </div>
-            </div>
-
-         
-            <h3 className="font-semibold text-gray-900 text-sm sm:text-base mb-2 line-clamp-2">
-              {report.title}
-            </h3>
-
-            
-            
-            <p className="text-gray-600 text-xs sm:text-sm leading-relaxed mb-4 line-clamp-3">  
-              {report.description}
-            </p>
-
-         
-            <div className="flex justify-center">
-              {report.link ? (
-                <div className="flex items-center text-green-600 text-xs sm:text-sm font-medium">
-                  <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
-                  View Document
-                </div>
-              ) : (
-                <span className="text-amber-600 text-xs sm:text-sm font-medium">
-                  Coming Soon
-                </span>
-              )}
-            </div>
-          </div>
-        ))} */}
-
+     
         {reports.map((report, index) => (
           <div
             key={index}
-            className={`bg-white border border-gray-200 rounded-2xl p-6 sm:p-8 shadow-sm hover:shadow-2xl transition-all duration-300 w-full sm:w-80 lg:w-96 ${
+            className={`bg-white border border-gray-200 rounded-2xl p-6 sm:p-8 shadow-sm hover:shadow-2xl transition-all duration-300 w-full sm:w-80 lg:w-80 ${
               report.link
                 ? "cursor-pointer hover:border-green-300 hover:border-4"
                 : "opacity-75"
