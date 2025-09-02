@@ -60,6 +60,12 @@ const Syllabus = () => {
       color: "#8B5CF6",
       duration: 1,
     },
+    {
+      title: "Storytelling & Pitching",
+      description: "Communicating ideas effectively",
+      color: "#3B82F6",
+      duration: 1,
+    }
   ];
 
   useEffect(() => {
@@ -93,7 +99,7 @@ const Syllabus = () => {
   const getRocketPosition = (): string => {
     // Since phases are in reverse order (flex-col-reverse), we need to calculate from top
     const totalPhases = phases.length;
-    const stepHeight = 195; // Adjust this to match your actual spacing between phases
+    const stepHeight = 191; // Adjust this to match your actual spacing between phases
     const reverseIndex = totalPhases - 1 - currentPhase; // Reverse the index
     const targetPosition = reverseIndex * stepHeight;
 
@@ -300,9 +306,15 @@ const Syllabus = () => {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <span className="text-blue-600 font-bold text-xl">5.</span>
+                  <span className="text-[#8B5CF6] font-bold text-xl">5.</span>
                   <span className="text-gray-800 font-semibold">
                     Full-Scale Execution
+                  </span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-[#3B82F6] font-bold text-xl">6.</span>
+                  <span className="text-gray-800 font-semibold">
+                    Storytelling & Pitching
                   </span>
                 </div>
               </div>
