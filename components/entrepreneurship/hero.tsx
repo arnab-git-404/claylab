@@ -58,9 +58,9 @@ export default function Hero() {
             solution-builders — through handson workshops, real-world projects,
             and 1:1 mentorship.
           </p>
-          <Button className="bg-gradient-to-r from-green-800 to-green-600 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-500 text-white rounded-md w-full sm:w-min px-8 sm:px-16 py-3 sm:py-4 text-base sm:text-lg">
+          {/* <Button className="bg-gradient-to-r from-green-800 to-green-600 hover:bg-gradient-to-r hover:from-green-700 hover:to-green-500 text-white rounded-md w-full sm:w-min px-8 sm:px-16 py-3 sm:py-4 text-base sm:text-lg">
             Join us
-          </Button>
+          </Button> */}
         </div>
 
         {/* <div className="flex flex-col gap-4 text-center max-w-screen z-10 mt-8">
