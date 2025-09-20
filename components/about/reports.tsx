@@ -1,12 +1,4 @@
 
-//                 {report.type}
-//               </span>
-//               {report.year && (
-//                 <span className="text-sm text-gray-500 font-medium">
-//                   {report.year}
-//                 </span>
-//               )}
-//             </div>
 
 //             {/* Document Icon */}
 //             <div className="flex justify-center mb-6">
