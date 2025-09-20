@@ -1,11 +1,4 @@
 
-//           src={"/claylab assets/aboutUs/documentIcon.png"}
-//           height={80}
-//           width={60}
-//           alt={"document icon"}
-//           className="h-16 w-auto sm:h-20 md:h-24  "
-//         />
-//       </div>
 
 //       <Heading text="REPORTS & DOCUMENTATION" />
 
