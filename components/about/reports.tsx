@@ -1,11 +1,5 @@
 
 
-//             {/* Document Icon */}
-//             <div className="flex justify-center mb-6">
-//               <div className="w-8 h-8 sm:w-20 sm:h-20 bg-gray-100 rounded-lg flex items-center justify-center">
-//                 <svg
-
-
 //                   <path
 //                     strokeLinecap="round"
 //                     strokeLinejoin="round"
