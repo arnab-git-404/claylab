@@ -1,9 +1,3 @@
-
-//             {/* Action Button/Status */}
-//             <div className="flex justify-center">
-
-
-
 "use client";
 
 import Image from "next/image";
