@@ -1,8 +1,6 @@
 
 //             {/* Action Button/Status */}
 //             <div className="flex justify-center">
-//               {report.link ? (
-//                 <div className="flex items-center text-green-600 text-sm sm:text-base font-medium">
 
 
 
