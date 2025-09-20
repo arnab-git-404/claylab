@@ -1,13 +1,4 @@
 
-
-//       <Heading text="REPORTS & DOCUMENTATION" />
-
-//       {/* Description */}
-//       <p className="max-w-2xl mx-auto text-gray-700 text-sm sm:text-base md:text-lg mb-8 sm:mb-10 leading-relaxed">
-//         We prioritize transparency as we believe it is crucial to foster trust
-//         and accountability in our actions and initiatives.
-//       </p>
-
 //       {/* Reports Flex Container */}
 //       <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mb-8 sm:mb-10 mx-auto">
      
