@@ -35,16 +35,6 @@
 //             Last update : 28th August 2025
 //             {/* {new Date().toLocaleDateString("en-IN", {
 //               weekday: "short",
-//               year: "numeric",
-//               month: "short",
-//               day: "numeric",
-//             })} */}
-//           </p>
-//         </button>
-//       </div>
-//     </section>
-//   );
-// }
 
 
 
