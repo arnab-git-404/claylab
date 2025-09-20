@@ -1,7 +1,3 @@
-//             {/* Report Title */}
-//             <h3 className="font-semibold text-gray-900 text-base sm:text-lg mb-3 line-clamp-2">
-//               {report.title}
-//             </h3>
 
 //             {/* Action Button/Status */}
 //             <div className="flex justify-center">
