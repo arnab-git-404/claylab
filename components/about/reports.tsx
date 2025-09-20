@@ -3,10 +3,6 @@
 //             <div className="flex justify-center">
 //               {report.link ? (
 //                 <div className="flex items-center text-green-600 text-sm sm:text-base font-medium">
-//                   <svg
-//                     className="w-5 h-5 mr-2"
-//                     fill="none"
-//                     stroke="currentColor"
 
 
 
