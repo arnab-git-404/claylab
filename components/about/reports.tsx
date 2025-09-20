@@ -1,10 +1,4 @@
 
-
-//   return (
-//     <section className="text-center py-8 sm:py-12 md:py-16 px-4 sm:px-6 lg:px-8 rounded-none shadow-md w-full mx-auto">
-//       {/* Icon */}
-//       <div className="flex justify-center mb-4 sm:mb-6">
-//         <Image
 //           src={"/claylab assets/aboutUs/documentIcon.png"}
 //           height={80}
 //           width={60}
