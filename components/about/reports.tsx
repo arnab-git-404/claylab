@@ -3,11 +3,6 @@
 //               {report.title}
 //             </h3>
 
-//             {/* Report Description */}
-//             <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-6 line-clamp-3">
-//               {/* {report.description} */}
-//             </p>
-
 //             {/* Action Button/Status */}
 //             <div className="flex justify-center">
 //               {report.link ? (
