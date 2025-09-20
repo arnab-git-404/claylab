@@ -1,9 +1,4 @@
 
-// "use client";
-
-// import Image from "next/image";
-// import Heading from "../heading";
-
 // export default function ReportsSection() {
 //   const reports = [
 //     {
