@@ -1,11 +1,4 @@
 
-//             {/* Report Type Badge */}
-//             <div className="flex justify-between items-start mb-4">
-//               <span
-//                 className={`px-3 py-1.5 rounded-full text-sm font-medium capitalize ${getTypeColor(
-//                   report.type
-//                 )}`}
-//               >
 //                 {report.type}
 //               </span>
 //               {report.year && (
