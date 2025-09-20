@@ -30,11 +30,6 @@
 
 //       {/* More Reports Button */}
 //       <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-//         <button className="px-6 sm:px-8 lg:px-12 py-2.5 sm:py-3 text-white font-medium rounded-full border border-white bg-gradient-to-r from-green-800 to-green-400 shadow-md hover:shadow-lg hover:from-green-700 hover:to-green-300 transition-all text-sm sm:text-base">
-//           <p className="text-black text-xs sm:text-lg font-bold">
-//             Last update : 28th August 2025
-//             {/* {new Date().toLocaleDateString("en-IN", {
-//               weekday: "short",
 
 
 
