@@ -5,13 +5,7 @@
 //         {reports.map((report, index) => (
 //           <div
 //             key={index}
-//             className={`bg-white border border-gray-200 rounded-2xl p-6 sm:p-8 shadow-sm hover:shadow-2xl transition-all duration-300 w-full sm:w-80 lg:w-80 ${
-//               report.link
-//                 ? "cursor-pointer hover:border-green-300 hover:border-4"
-//                 : "opacity-75"
-//             }`}
-//             onClick={() => handleReportClick(report.link)}
-//           >
+
 //             {/* Report Type Badge */}
 //             <div className="flex justify-between items-start mb-4">
 //               <span
